@@ -1,5 +1,5 @@
-Bienvenue sur la page personnelle de **John GABARY**
-====================================================
+Bienvenue sur ma page personnelle
+====================================
 
 .. .. image:: _static/photo.png
 ..    :width: 200px

@@ -80,7 +80,7 @@ html_theme_options = {
         },
     ],
     "logo": {
-        "text": "JG's World",
+        "text": "John GABARY",
         "image_dark": "_static/photo.png",
     },
     "use_edit_page_button": True,
