@@ -419,20 +419,93 @@
 <section id="contactez-moi">
 <h2>Contactez-moi<a class="headerlink" href="#contactez-moi" title="Lien vers cette rubrique">#</a></h2>
 <p>Pour toute question ou demande de collaboration, n’hésitez pas à me contacter via le formulaire ci-dessous :</p>
-<form action="http://127.0.0.1:5000/send_email" method="POST">
-  <label for="name">Nom:</label><br>
-  <input type="text" id="name" name="name" required><br>
-  <label for="email">Email:</label><br>
-  <input type="email" id="email" name="email" required><br>
-  <label for="message">Message:</label><br>
-  <textarea id="message" name="message" rows="4" required></textarea><br>
-  <input type="submit" value="Envoyer">
-</form></section>
-<section id="retour-d-experience-et-contributions">
-<h2>Retour d’expérience et Contributions<a class="headerlink" href="#retour-d-experience-et-contributions" title="Lien vers cette rubrique">#</a></h2>
-<p>Si vous avez des suggestions ou souhaitez contribuer à ce site, vous pouvez créer une pull request ou ouvrir une issue sur <a class="reference external" href="https://johngab7.github.io/Actu_Basics/">GitHub</a>.</p>
-<p>Merci de votre visite !</p>
-</section>
+<style>
+    .contact-form {
+        max-width: 600px;
+        margin: auto;
+        padding: 20px;
+        background-color: #f7f7f7;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .contact-form button {
+        background-color: #007bff;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .contact-form button:hover {
+        background-color: #0056b3;
+    }
+
+    .contact-form .hidden {
+        display: none;
+    }
+</style>
+
+<form action="https://formspree.io/f/mldekjld" method="POST" class="contact-form">
+    <label for="firstname">Prénom:</label><br>
+    <input type="text" id="firstname" name="firstname" required><br>
+    <label for="lastname">Nom:</label><br>
+    <input type="text" id="lastname" name="lastname" required><br>
+    <label for="email">Adresse Email:</label><br>
+    <input type="email" id="email" name="email" required><br>
+    <label for="phone">Téléphone:</label><br>
+    <input type="tel" id="phone" name="phone" required><br>
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="4" required></textarea><br>
+    <button type="submit">Envoyer</button>
+    <div class="hidden" id="success-message">
+        <p>Votre message a été envoyé avec succès !</p>
+    </div>
+    <div class="hidden" id="error-message">
+        <p>Une erreur s'est produite lors de l'envoi de votre message. Veuillez réessayer.</p>
+    </div>
+</form><script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const form = document.querySelector(".contact-form");
+        const successMessage = document.getElementById("success-message");
+        const errorMessage = document.getElementById("error-message");
+
+        form.addEventListener("submit", function (event) {
+            event.preventDefault();
+            const formData = new FormData(form);
+
+            fetch(form.action, {
+                method: form.method,
+                body: formData,
+                headers: {
+                    'Accept': 'application/json'
+                }
+            }).then(response => {
+                if (response.ok) {
+                    form.reset();
+                    successMessage.classList.remove("hidden");
+                    errorMessage.classList.add("hidden");
+                } else {
+                    successMessage.classList.add("hidden");
+                    errorMessage.classList.remove("hidden");
+                }
+            }).catch(error => {
+                successMessage.classList.add("hidden");
+                errorMessage.classList.remove("hidden");
+            });
+        });
+    });
+</script></section>
 </section>
 
 
