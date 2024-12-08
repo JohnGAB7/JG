@@ -1,9 +1,9 @@
 Bienvenue sur ma page personnelle
-====================================
+=================================
 
-.. .. image:: _static/photo.png
-..    :width: 200px
-..    :align: right
+.. image:: _static/photo.png
+   :width: 200px
+   :align: right
 
 Ici, vous découvrirez mon parcours académique et professionnel, mes compétences techniques, ainsi que mes projets passionnants dans le domaine des **sciences actuarielles**, des **statistiques**, et de la **programmation appliquée**.
 
@@ -33,7 +33,7 @@ Chaque projet présente une opportunité de démontrer mes capacités en program
 Accédez à mes projets sur `GitHub <https://johngab7.github.io/Actu_Basics/>`_ pour voir le code source de ces applications et bien d'autres.
 
 Liens vers mes autres ressources
------------------------------------
+--------------------------------
 - `Mon profil GitHub <https://github.com/JohnGAB7>`_
 - `Mon profil LinkedIn <https://www.linkedin.com/in/johngabary>`_
 - `Applications R Shiny <https://johngab7.shinyapps.io/mle_convergence_in_r/>`_
@@ -41,7 +41,19 @@ Liens vers mes autres ressources
 
 Contactez-moi
 -------------
-Pour toute question ou demande de collaboration, n'hésitez pas à me contacter par email à `johngabary@actubasics.com` ou via mes profils sociaux mentionnés ci-dessus.
+Pour toute question ou demande de collaboration, n'hésitez pas à me contacter via le formulaire ci-dessous :
+
+.. raw:: html
+
+    <form action="http://127.0.0.1:5000/send_email" method="POST">
+      <label for="name">Nom:</label><br>
+      <input type="text" id="name" name="name" required><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br>
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="4" required></textarea><br>
+      <input type="submit" value="Envoyer">
+    </form>
 
 Retour d'expérience et Contributions
 ------------------------------------

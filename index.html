@@ -51,7 +51,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="fr"/>
   <meta name="docsearch:version" content="" />
-    <meta name="docbuild:last-update" content="14 novembre 2024"/>
+    <meta name="docbuild:last-update" content="08 décembre 2024"/>
   </head>
   
   
@@ -381,6 +381,8 @@
                   
   <section id="bienvenue-sur-ma-page-personnelle">
 <h1>Bienvenue sur ma page personnelle<a class="headerlink" href="#bienvenue-sur-ma-page-personnelle" title="Lien vers cette rubrique">#</a></h1>
+<a class="reference internal image-reference" href="_images/photo.png"><img alt="_images/photo.png" class="align-right" src="_images/photo.png" style="width: 200px;" />
+</a>
 <p>Ici, vous découvrirez mon parcours académique et professionnel, mes compétences techniques, ainsi que mes projets passionnants dans le domaine des <strong>sciences actuarielles</strong>, des <strong>statistiques</strong>, et de la <strong>programmation appliquée</strong>.</p>
 <p>Je suis passionné par la combinaison de la <strong>programmation</strong> et des <strong>sciences actuarielles</strong>. J’ai récemment terminé mon <strong>Master en sciences actuarielles</strong> à l’Université Libre de Bruxelles, où j’ai approfondi mes connaissances en modélisation, en gestion des risques, et en analyse de données.</p>
 <p>Mon objectif est de fusionner les compétences en analyse de données et en programmation pour résoudre des problèmes complexes en actuariat, particulièrement dans les domaines de la <strong>non-vie</strong> et de la <strong>modélisation financière</strong>.</p>
@@ -416,8 +418,16 @@
 </section>
 <section id="contactez-moi">
 <h2>Contactez-moi<a class="headerlink" href="#contactez-moi" title="Lien vers cette rubrique">#</a></h2>
-<p>Pour toute question ou demande de collaboration, n’hésitez pas à me contacter par email à <cite>johngabary&#64;actubasics.com</cite> ou via mes profils sociaux mentionnés ci-dessus.</p>
-</section>
+<p>Pour toute question ou demande de collaboration, n’hésitez pas à me contacter via le formulaire ci-dessous :</p>
+<form action="http://127.0.0.1:5000/send_email" method="POST">
+  <label for="name">Nom:</label><br>
+  <input type="text" id="name" name="name" required><br>
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" required><br>
+  <label for="message">Message:</label><br>
+  <textarea id="message" name="message" rows="4" required></textarea><br>
+  <input type="submit" value="Envoyer">
+</form></section>
 <section id="retour-d-experience-et-contributions">
 <h2>Retour d’expérience et Contributions<a class="headerlink" href="#retour-d-experience-et-contributions" title="Lien vers cette rubrique">#</a></h2>
 <p>Si vous avez des suggestions ou souhaitez contribuer à ce site, vous pouvez créer une pull request ou ouvrir une issue sur <a class="reference external" href="https://johngab7.github.io/Actu_Basics/">GitHub</a>.</p>
