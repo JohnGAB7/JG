@@ -1,4 +1,6 @@
-Hello, bienvenue sur ma page personnelle
+Hello 👋! 
+============
+Bienvenue sur la page de **John GABARY**
 =======================================================
 
 .. raw:: html
@@ -12,7 +14,8 @@ Hello, bienvenue sur ma page personnelle
             color: #333; 
             margin: 0; 
             padding: 0;
-            text-align: center; }
+            text-align: center; 
+        }
 
         .block {
             margin-bottom: 40px;
@@ -20,7 +23,16 @@ Hello, bienvenue sur ma page personnelle
             background-color: #f8f9fa;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            .. transition: transform 1s, box-shadow 1s;
+            transition: transform 1s, box-shadow 1s;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            word-wrap: break-word;
+            hyphens: auto;
+        }
+
+        .block:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
         }
 
         .contact-info {
@@ -54,8 +66,6 @@ Hello, bienvenue sur ma page personnelle
             }
         }
 
-        
-
         @keyframes fadeInUp {
             from {
                 transform: scale(0.5);
@@ -67,11 +77,14 @@ Hello, bienvenue sur ma page personnelle
             }
         }
 
-        .text { opacity: 0; 
-                animation: fadeIn 10s both; 
-                font-size: 1em; color: #333; 
-                transition: color 1s;
-                text-align: center;}
+        .text { 
+            opacity: 0; 
+            animation: fadeIn 10s both; 
+            font-size: 1em; 
+            color: #333; 
+            transition: color 1s;
+            text-align: center;
+        }
 
         .skills-container, .languages-container, .interests-container,
         .education-container, .experience-container {
@@ -134,7 +147,7 @@ Hello, bienvenue sur ma page personnelle
         }
 
         .contact-form button:hover {
-            background-color: #007bff;
+            background-color: #0056b3;
         }
 
         .contact-form .hidden {
@@ -182,36 +195,59 @@ Hello, bienvenue sur ma page personnelle
         }
 
         @keyframes typing-slow { 
-             from { width: 0; }
-             to { width: 100%; } }
+            from { width: 0; }
+            to { width: 100%; } 
+        }
 
         @keyframes blink-caret {
             from, to { border-color: transparent; }
             50% { border-color: white; }
         }
+
+        @media only screen and (max-width: 600px) {
+            .skills-container, .languages-container, .interests-container,
+            .education-container, .experience-container {
+                flex-direction: column;
+            }
+
+            .skill-card, .language-card, .interest-card, .education-card, .experience-card {
+                flex: 1 1 100%;
+            }
+
+            .block {
+                padding: 10px;
+                overflow: visible;
+            }
+
+            .contact-form {
+                padding: 10px;
+            }
+
+            .typing-container, .text {
+                font-size: 0.9em;
+            }
+        }
     </style>
 
     <div class="block">
         <div class="typing-slow">
-            Je suis <strong>John GABARY,</strong> actuaire junior par les sciences actuarielles et ses applications.          
+            <strong>Actuaire junior</strong>, spécialisé en modélisation statistique et gestion des risques.
         </div>
     </div>
 
     <div class="typing-container">
         <div class="text">
-        J'ai récemment terminé mon Master en sciences actuarielles à l'Université Libre de Bruxelles, où j'ai acquis des connaissances en sciences actuarielles, en gestion des risques, modélisation statistique, en analyse de données et en programmation appliquée.
+            Diplômé en sciences actuarielles de l'Université Libre de Bruxelles 🎓, je combine expertise quantitative et programmation pour résoudre des problématiques complexes en actuariat non-vie et finance.
 
-        Mon objectif est de fusionner les compétences en analyse de données et en programmation pour résoudre des problèmes complexes en actuariat, particulièrement dans les domaines de la non-vie et de la modélisation financière.
+            Gravissant les échelons de la réussite 🚀, je suis déterminé à exceller dans le domaine de l'actuariat.
         </div>
     </div>
 
     <div class="typing-container">
         <div class="text delay-2">
-        Ici, vous découvrirez mon parcours académique et professionnel ainsi que mes projets en actuariat et en statistiques.
+            Découvrez ici mon parcours académique et mes réalisations professionnelles. 🌟
         </div>
     </div>
-
-
 
 .. toctree::
    :maxdepth: 1
@@ -222,5 +258,3 @@ Hello, bienvenue sur ma page personnelle
    competences
 
 .. include:: contact.rst
-
-    
