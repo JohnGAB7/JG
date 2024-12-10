@@ -6,7 +6,9 @@
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>Recherche - Documentation JG's World </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Hello, bienvenue sur ma page personnelle &#8212; Documentation JG&#39;s World </title>
   
   
   
@@ -42,13 +44,10 @@
     <script src="_static/doctools.js?v=9bcbadda"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="_static/translations.js?v=e6b791cb"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'search';</script>
-  <script src="_static/searchtools.js"></script>
-  <script src="_static/language_data.js"></script>
-  <script src="searchindex.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'intro';</script>
     <link rel="icon" href="_static/photo.png"/>
     <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Recherche" href="#" />
+    <link rel="search" title="Recherche" href="search.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="fr"/>
   <meta name="docsearch:version" content="" />
@@ -71,7 +70,7 @@
   <dialog id="pst-search-dialog">
     
 <form class="bd-search d-flex align-items-center"
-      action="#"
+      action="search.html"
       method="get">
   <i class="fa-solid fa-magnifying-glass"></i>
   <input type="search"
@@ -412,45 +411,225 @@
           <div class="bd-content">
             <div class="bd-article-container">
               
-              <div class="bd-header-article d-print-none"></div>
-              
-              
-  <div class="bd-search-container">
-    <h1>Recherche</h1>
-    <noscript>
-      <div class="admonition error">
-        <p class="admonition-title">Erreur</p>
-        <p>Please activate JavaScript to enable the search functionality.</p>
-      </div>
-    </noscript>
-    
-<form class="bd-search d-flex align-items-center"
-      action="#"
-      method="get">
-  <i class="fa-solid fa-magnifying-glass"></i>
-  <input type="search"
-         class="form-control"
-         name="q"
-         placeholder="Search the docs ..."
-         aria-label="Search the docs ..."
-         autocomplete="off"
-         autocorrect="off"
-         autocapitalize="off"
-         spellcheck="false"/>
-  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
-</form>
-    <div id="search-results"></div>
-  </div>
-  <script>
-    // Activate the search field on page load
-    let searchInput = document.querySelector("form.bd-search input");
-    if (searchInput) {
-        searchInput.focus();
-        searchInput.select();
-        console.log("[PST]: Set focus on search field.");
-    }
-  </script>
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item">
 
+<nav aria-label="Breadcrumb" class="d-print-none">
+  <ul class="bd-breadcrumbs">
+    
+    <li class="breadcrumb-item breadcrumb-home">
+      <a href="index.html" class="nav-link" aria-label="Home">
+        <i class="fa-solid fa-home"></i>
+      </a>
+    </li>
+    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">Hello, bienvenue sur ma page personnelle</span></li>
+  </ul>
+</nav>
+</div>
+      
+    </div>
+  
+  
+</div>
+</div>
+              
+              
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section id="hello-bienvenue-sur-ma-page-personnelle">
+<h1>Hello, bienvenue sur ma page personnelle<a class="headerlink" href="#hello-bienvenue-sur-ma-page-personnelle" title="Lien vers cette rubrique">#</a></h1>
+<style>
+    .block {
+        margin-bottom: 40px;
+        padding: 20px;
+        background-color: #f8f9fa;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        transition: transform 1s, box-shadow 1s;
+    }
+
+    .contact-info {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .contact-info p {
+        margin: 5px 0;
+    }
+
+    .animated {
+        animation-duration: 60s;
+        animation-fill-mode: both;
+    }
+
+    .fadeIn {
+        animation-name: fadeIn;
+    }
+
+    .fadeInUp {
+        animation-name: fadeInUp;
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+    @keyframes fadeInUp {
+        from {
+            transform: translate3d(0, 40px, 0);
+            opacity: 0;
+        }
+        to {
+            transform: translate3d(0, 0, 0);
+            opacity: 1;
+        }
+    }
+
+    .skills-container, .languages-container, .interests-container,
+    .education-container, .experience-container {
+        margin-top: 20px;
+    }
+
+    .skill-card, .language-card, .interest-card,
+    .education-card, .experience-card {
+        background-color: #f7f7f7;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        transition: all 0.3s ease;
+    }
+
+    .skill-card h3, .language-card h3, .interest-card h3,
+    .education-card h3, .experience-card h3 {
+        margin-top: 0;
+    }
+
+    .skills-container, .languages-container, .interests-container,
+    .education-container, .experience-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .skill-card, .language-card, .interest-card, .education-card, .experience-card {
+        flex: 1 1 calc(50% - 20px);
+        margin: 10px;
+    }
+
+    .contact-form {
+        max-width: 600px;
+        margin: auto;
+        padding: 20px;
+        background-color: #f7f7f7;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .contact-form button {
+        background-color: #007bff;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .contact-form button:hover {
+        background-color: #007bff;
+    }
+
+    .contact-form .hidden {
+        display: none;
+    }
+
+    .typing-container {
+        width: 100%;
+        text-align: center;
+        font-size: 1em;
+        font-weight: bold;
+    }
+
+    .typing {
+        display: inline-block;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: .20em black;
+        animation: typing 12s steps(140, end), blink-caret .75s step-end infinite;
+    }
+
+    .typing-slow {
+        display: inline-block;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: .20em black;
+        animation: typing-slow 4s steps(40, end), blink-caret .75s step-end infinite;
+    }
+
+    .delay-1 {
+        animation-delay: 0s;
+    }
+
+    .delay-2 {
+        animation-delay: 2.5s;
+    }
+
+    .delay-3 {
+        animation-delay: 5s;
+    }
+
+    @keyframes typing {
+        from { width: 0; }
+        to { width: 100%; }
+    }
+
+    @keyframes typing-slow {
+         from { width: 0; }
+         to { width: 100%; } }
+
+    @keyframes blink-caret {
+        from, to { border-color: transparent; }
+        50% { border-color: white; }
+    }
+</style>
+
+<div class="typing-container">
+    <div class="typing-slow">
+        Je suis <strong>John GABARY,</strong> actuaire junior par la combinaison de la programmation et des sciences actuarielles.
+    </div>
+</div>
+
+<div class="typing-container">
+    <div class="typing animated delay-2">
+        Ici, vous découvrirez mon parcours académique et professionnel ainsi que mes projets en actuariat et en statistiques.
+    </div>
+</div></section>
+
+
+                </article>
+              
               
               
               

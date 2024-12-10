@@ -4,23 +4,13 @@ Hello, bienvenue sur ma page personnelle
 .. raw:: html
 
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'); 
-        
-        body { 
-            font-family: 'Menlo', monospace;
-            background-color: #f4f4f9; 
-            color: #333; 
-            margin: 0; 
-            padding: 0;
-            text-align: center; }
-
         .block {
             margin-bottom: 40px;
             padding: 20px;
             background-color: #f8f9fa;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            .. transition: transform 1s, box-shadow 1s;
+            transition: transform 1s, box-shadow 1s;
         }
 
         .contact-info {
@@ -54,24 +44,16 @@ Hello, bienvenue sur ma page personnelle
             }
         }
 
-        
-
         @keyframes fadeInUp {
             from {
-                transform: scale(0.5);
+                transform: translate3d(0, 40px, 0);
                 opacity: 0;
             }
             to {
-                transform: scale(1);
+                transform: translate3d(0, 0, 0);
                 opacity: 1;
             }
         }
-
-        .text { opacity: 0; 
-                animation: fadeIn 10s both; 
-                font-size: 1em; color: #333; 
-                transition: color 1s;
-                text-align: center;}
 
         .skills-container, .languages-container, .interests-container,
         .education-container, .experience-container {
@@ -145,23 +127,23 @@ Hello, bienvenue sur ma page personnelle
             width: 100%;
             text-align: center;
             font-size: 1em;
-            font-family: 'Menlo', monospace;
+            font-weight: bold;
         }
 
         .typing {
             display: inline-block;
             white-space: nowrap;
             overflow: hidden;
-            border-right: .20em;
-            animation: typing 12s steps(140, end), blink-caret 1s step-end infinite;
+            border-right: .20em black;
+            animation: typing 12s steps(140, end), blink-caret .75s step-end infinite;
         }
 
         .typing-slow {
             display: inline-block;
             white-space: nowrap;
             overflow: hidden;
-            border-right: .20em;
-            animation: typing-slow 8s steps(40, end), blink-caret 0.75s step-end infinite;
+            border-right: .20em black;
+            animation: typing-slow 4s steps(40, end), blink-caret .75s step-end infinite;
         }
 
         .delay-1 {
@@ -169,7 +151,7 @@ Hello, bienvenue sur ma page personnelle
         }
 
         .delay-2 {
-            animation-delay: 1s;
+            animation-delay: 2.5s;
         }
 
         .delay-3 {
@@ -191,36 +173,14 @@ Hello, bienvenue sur ma page personnelle
         }
     </style>
 
-    <div class="block">
+    <div class="typing-container">
         <div class="typing-slow">
-            Je suis <strong>John GABARY,</strong> actuaire junior par les sciences actuarielles et ses applications.          
+            Je suis <strong>John GABARY,</strong> actuaire junior par la combinaison de la programmation et des sciences actuarielles.          
         </div>
     </div>
 
     <div class="typing-container">
-        <div class="text">
-        J'ai récemment terminé mon Master en sciences actuarielles à l'Université Libre de Bruxelles, où j'ai acquis des connaissances en sciences actuarielles, en gestion des risques, modélisation statistique, en analyse de données et en programmation appliquée.
-
-        Mon objectif est de fusionner les compétences en analyse de données et en programmation pour résoudre des problèmes complexes en actuariat, particulièrement dans les domaines de la non-vie et de la modélisation financière.
+        <div class="typing animated delay-2">
+            Ici, vous découvrirez mon parcours académique et professionnel ainsi que mes projets en actuariat et en statistiques.
         </div>
     </div>
-
-    <div class="typing-container">
-        <div class="text delay-2">
-        Ici, vous découvrirez mon parcours académique et professionnel ainsi que mes projets en actuariat et en statistiques.
-        </div>
-    </div>
-
-
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Voir :
-
-   formation_academique
-   experiences_professionnelles
-   competences
-
-.. include:: contact.rst
-
-    

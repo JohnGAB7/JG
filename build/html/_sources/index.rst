@@ -1,51 +1,111 @@
-Bienvenue sur ma page personnelle
-=================================
-
-.. image:: _static/photo.png
-   :width: 200px
-   :align: right
-
-Ici, vous découvrirez mon parcours académique et professionnel, mes compétences techniques, ainsi que mes projets passionnants dans le domaine des **sciences actuarielles**, des **statistiques**, et de la **programmation appliquée**.
-
-Je suis passionné par la combinaison de la **programmation** et des **sciences actuarielles**. J'ai récemment terminé mon **Master en sciences actuarielles** à l'Université Libre de Bruxelles, où j'ai approfondi mes connaissances en modélisation, en gestion des risques, et en analyse de données.
-
-Mon objectif est de fusionner les compétences en analyse de données et en programmation pour résoudre des problèmes complexes en actuariat, particulièrement dans les domaines de la **non-vie** et de la **modélisation financière**.
-
-À propos de moi
----------------
-Je suis un **Jeune Actuaire** passionné par l’analyse de données et la création de solutions innovantes dans le secteur de l’actuariat. Grâce à mes compétences en **R** et en **Python**, je suis capable de concevoir des modèles statistiques avancés et des outils de visualisation interactifs. Voici un résumé de mes compétences et technologies maîtrisées :
-
-- **Data Science & Statistiques** : Connaissance en analyse de données avec Python (Pandas, NumPy, Scikit-learn) et R (ggplot2, Shiny).
-- **Modélisation Actuarielle** : Prédiction des sinistres, tarification des risques, et modélisation de la solvabilité pour les assurances non-vie.
-- **Machine Learning** : Développement de modèles prédictifs et d'algorithmes de classification et régression.
-- **Automatisation et Reporting** : Utilisation de Power BI, Excel VBA, et Python pour automatiser les rapports et analyses.
-
-Projets et Réalisations
-------------------------
-Voici quelques-uns de mes projets les plus significatifs dans le domaine des sciences actuarielles et des données :
-
-- **Modélisation Actuarielle pour l'Assurance Non-Vie** : Développement d’un modèle prédictif pour évaluer les risques en assurance non-vie.
-- **Analyse Prédictive des Risques Boursiers** : Création d'un modèle de prédiction des tendances boursières en utilisant des techniques de machine learning.
-- **Dashboard Interactif avec R Shiny** : Un tableau de bord interactif pour visualiser les données financières et actuarielles.
-
-Chaque projet présente une opportunité de démontrer mes capacités en programmation et en gestion des risques dans des scénarios réels.
-
-Accédez à mes projets sur `GitHub <https://johngab7.github.io/Actu_Basics/>`_ pour voir le code source de ces applications et bien d'autres.
-
-Liens vers mes autres ressources
---------------------------------
-- `Mon profil GitHub <https://github.com/JohnGAB7>`_
-- `Mon profil LinkedIn <https://www.linkedin.com/in/johngabary>`_
-- `Applications R Shiny <https://johngab7.shinyapps.io/mle_convergence_in_r/>`_
-- `Télécharger mon CV (PDF) <_static/CV_John_GABARY.pdf>`_
-
-Contactez-moi
--------------
-Pour toute question ou demande de collaboration, n'hésitez pas à me contacter via le formulaire ci-dessous :
+Hello, bienvenue sur ma page personnelle
+=======================================================
 
 .. raw:: html
 
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'); 
+        
+        body { 
+            font-family: 'Menlo', monospace;
+            background-color: #f4f4f9; 
+            color: #333; 
+            margin: 0; 
+            padding: 0;
+            text-align: center; }
+
+        .block {
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            .. transition: transform 1s, box-shadow 1s;
+        }
+
+        .contact-info {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .contact-info p {
+            margin: 5px 0;
+        }
+
+        .animated {
+            animation-duration: 60s;
+            animation-fill-mode: both;
+        }
+
+        .fadeIn {
+            animation-name: fadeIn;
+        }
+
+        .fadeInUp {
+            animation-name: fadeInUp;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        
+
+        @keyframes fadeInUp {
+            from {
+                transform: scale(0.5);
+                opacity: 0;
+            }
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        .text { opacity: 0; 
+                animation: fadeIn 10s both; 
+                font-size: 1em; color: #333; 
+                transition: color 1s;
+                text-align: center;}
+
+        .skills-container, .languages-container, .interests-container,
+        .education-container, .experience-container {
+            margin-top: 20px;
+        }
+
+        .skill-card, .language-card, .interest-card,
+        .education-card, .experience-card {
+            background-color: #f7f7f7;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .skill-card h3, .language-card h3, .interest-card h3,
+        .education-card h3, .experience-card h3 {
+            margin-top: 0;
+        }
+
+        .skills-container, .languages-container, .interests-container,
+        .education-container, .experience-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .skill-card, .language-card, .interest-card, .education-card, .experience-card {
+            flex: 1 1 calc(50% - 20px);
+            margin: 10px;
+        }
+
         .contact-form {
             max-width: 600px;
             margin: auto;
@@ -74,65 +134,93 @@ Pour toute question ou demande de collaboration, n'hésitez pas à me contacter 
         }
 
         .contact-form button:hover {
-            background-color: #0056b3;
+            background-color: #007bff;
         }
 
         .contact-form .hidden {
             display: none;
         }
+
+        .typing-container {
+            width: 100%;
+            text-align: center;
+            font-size: 1em;
+            font-family: 'Menlo', monospace;
+        }
+
+        .typing {
+            display: inline-block;
+            white-space: nowrap;
+            overflow: hidden;
+            border-right: .20em;
+            animation: typing 12s steps(140, end), blink-caret 1s step-end infinite;
+        }
+
+        .typing-slow {
+            display: inline-block;
+            white-space: nowrap;
+            overflow: hidden;
+            border-right: .20em;
+            animation: typing-slow 8s steps(40, end), blink-caret 0.75s step-end infinite;
+        }
+
+        .delay-1 {
+            animation-delay: 0s;
+        }
+
+        .delay-2 {
+            animation-delay: 1s;
+        }
+
+        .delay-3 {
+            animation-delay: 5s;
+        }
+
+        @keyframes typing {
+            from { width: 0; }
+            to { width: 100%; }
+        }
+
+        @keyframes typing-slow { 
+             from { width: 0; }
+             to { width: 100%; } }
+
+        @keyframes blink-caret {
+            from, to { border-color: transparent; }
+            50% { border-color: white; }
+        }
     </style>
 
-    <form action="https://formspree.io/f/mldekjld" method="POST" class="contact-form">
-        <label for="firstname">Prénom:</label><br>
-        <input type="text" id="firstname" name="firstname" required><br>
-        <label for="lastname">Nom:</label><br>
-        <input type="text" id="lastname" name="lastname" required><br>
-        <label for="email">Adresse Email:</label><br>
-        <input type="email" id="email" name="email" required><br>
-        <label for="phone">Téléphone:</label><br>
-        <input type="tel" id="phone" name="phone" required><br>
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message" rows="4" required></textarea><br>
-        <button type="submit">Envoyer</button>
-        <div class="hidden" id="success-message">
-            <p>Votre message a été envoyé avec succès !</p>
+    <div class="block">
+        <div class="typing-slow">
+            Je suis <strong>John GABARY,</strong> actuaire junior par les sciences actuarielles et ses applications.          
         </div>
-        <div class="hidden" id="error-message">
-            <p>Une erreur s'est produite lors de l'envoi de votre message. Veuillez réessayer.</p>
+    </div>
+
+    <div class="typing-container">
+        <div class="text">
+        J'ai récemment terminé mon Master en sciences actuarielles à l'Université Libre de Bruxelles, où j'ai acquis des connaissances en sciences actuarielles, en gestion des risques, modélisation statistique, en analyse de données et en programmation appliquée.
+
+        Mon objectif est de fusionner les compétences en analyse de données et en programmation pour résoudre des problèmes complexes en actuariat, particulièrement dans les domaines de la non-vie et de la modélisation financière.
         </div>
-    </form>
+    </div>
 
-.. raw:: html
+    <div class="typing-container">
+        <div class="text delay-2">
+        Ici, vous découvrirez mon parcours académique et professionnel ainsi que mes projets en actuariat et en statistiques.
+        </div>
+    </div>
 
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const form = document.querySelector(".contact-form");
-            const successMessage = document.getElementById("success-message");
-            const errorMessage = document.getElementById("error-message");
 
-            form.addEventListener("submit", function (event) {
-                event.preventDefault();
-                const formData = new FormData(form);
 
-                fetch(form.action, {
-                    method: form.method,
-                    body: formData,
-                    headers: {
-                        'Accept': 'application/json'
-                    }
-                }).then(response => {
-                    if (response.ok) {
-                        form.reset();
-                        successMessage.classList.remove("hidden");
-                        errorMessage.classList.add("hidden");
-                    } else {
-                        successMessage.classList.add("hidden");
-                        errorMessage.classList.remove("hidden");
-                    }
-                }).catch(error => {
-                    successMessage.classList.add("hidden");
-                    errorMessage.classList.remove("hidden");
-                });
-            });
-        });
-    </script>
+.. toctree::
+   :maxdepth: 1
+   :caption: Voir :
+
+   formation_academique
+   experiences_professionnelles
+   competences
+
+.. include:: contact.rst
+
+    
