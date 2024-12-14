@@ -71,8 +71,8 @@
             margin-bottom: 5px;
         }
         .logosec {
-            width: 60px;
-            height: 60px;
+            width: 50px;
+            height: 50px;
             position: absolute;
             top: 10px;
             right: 10px;
