@@ -183,7 +183,7 @@
                 </ul>
             </div>
         </div>
-        <img src="../_static/ulb.jpg" alt="ULB Logo" class="logosec">
+        <img src="../_static/ulb.png" alt="ULB Logo" class="logosec">
     </div>
     <div class="card">
         <h5>Maîtrise en Économie Mathématique</h5>
@@ -350,7 +350,7 @@
                 </ul>
             </div>
         </div>
-        <img src="../_static/camercap.jpg" alt="Cameroon Policy Analysis and Research Center Logo" class="logosec">
+        <img src="../_static/camercap.png" alt="Cameroon Policy Analysis and Research Center Logo" class="logosec">
     </div>
 
 .. raw:: html
