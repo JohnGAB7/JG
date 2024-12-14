@@ -153,7 +153,7 @@
     </style>
 
     <div class="jumbotron" style="background: linear-gradient(135deg, #2c3e50, #4ca1af); color: white; text-align: center; padding: 2rem 2rem; border-radius: 20px; margin-bottom: 2rem; word-wrap: break-word; overflow-wrap: break-word;">
-    <h1 class="display-4 typing-slow">Je suis <strong>John GABARY</strong></h1>
+    <h1 class="display-4">Je suis <strong>John GABARY</strong></h1>
    </div>
 
     <div class="section"></div>

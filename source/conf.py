@@ -49,6 +49,7 @@ html_favicon = "_static/log.png"
 html_sourcelink_suffix = ""
 html_last_updated_fmt = ""
 # html_extra_path = ['_static']
+html_title = "JG's World"
 
 # PyData theme customization
 html_theme_options = {

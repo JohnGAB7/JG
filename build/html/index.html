@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>&lt;no title&gt; &#8212; Documentation JG&#39;s World </title>
+    <title>&lt;no title&gt; &#8212; JG&#39;s World</title>
   
   
   
@@ -453,6 +453,21 @@
          hyphens: auto;
      }
 
+     .card {
+         border-radius: 15px;
+         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+         margin-bottom: 1rem;
+         padding: 15px;
+         background-color: #f9f9f9;
+         border-left: 5px solid #4ca1af;
+         position: relative;
+         transition: transform 0.3s, box-shadow 0.3s;
+     }
+     .card:hover {
+     transform: scale(1.03);
+     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+     }
+
      .block:hover {
          transform: translateY(-10px);
          box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
@@ -631,7 +646,7 @@
 
 
 <div class="jumbotron" style="background: linear-gradient(135deg, #2c3e50, #4ca1af); color: white; text-align: center; padding: 2rem 2rem; border-radius: 20px; margin-bottom: 2rem; word-wrap: break-word; overflow-wrap: break-word;">
- <h1 class="display-4 typing-slow">Bienvenue sur ma page</h1>
+ <h1 class="display-4">Bienvenue sur ma page</h1>
 </div>
 
 <div class="jumbotron" style="background: linear-gradient(135deg, #2c3e50, #4ca1af); color: white; text-align: center; padding: 2rem 1rem; border-radius: 15px; margin-bottom: 2rem;">
@@ -642,7 +657,7 @@
       <div class="card-body">
         <h4 class="card-title">À propos de moi</h4>
         <p class="card-text"></p>
-        <p class="card-text typing-slow delay-1">Je suis <strong>John GABARY</strong>, <strong>Actuaire</strong> passioné par la modélisation statistique et actuarielle.</p>
+        <p class="card-text">Je suis <strong>John GABARY</strong>, <strong>Actuaire</strong> passioné par la modélisation statistique et actuarielle.</p>
         <p class="card-text"></p>
         <a href="about.html" class="btn btn-primary">En savoir plus</a>
       </div>
@@ -650,7 +665,7 @@
     <div class="card">
       <div class="card-body">
         <h4 class="card-title">Mon CV</h4>
-        <p class="card-textt typing-slow delay-2">Découvrez mon parcours académique et professionnel.</p>
+        <p class="card-text">Découvrez mon parcours académique et professionnel.</p>
          <p class="card-text"></p>
         <a href="cv.html" class="btn btn-primary">Voir mon CV</a>
       </div>
@@ -658,7 +673,7 @@
     <div class="card">
       <div class="card-body">
         <h4 class="card-title">Mes Projets</h4>
-        <p class="card-textt typing-slow delay-3">Explorez mes projets réalisés et en cours.</p>
+        <p class="card-text">Explorez mes projets réalisés et en cours.</p>
          <p class="card-text"></p>
         <a href="projects.html" class="btn btn-primary">Voir mes projets</a>
       </div>
