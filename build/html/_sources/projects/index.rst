@@ -170,7 +170,7 @@
             <p>Cette application se concentre sur la convergence de l'estimation par la Méthode des Moments Généralisés (GMM) à travers des simulations Monte Carlo. Examinez les performances de GMM dans différentes conditions, y compris les tailles d'échantillon et les valeurs des paramètres réels. Visualisez les résultats des estimations et obtenez des insights sur l'efficacité de GMM dans l'estimation des paramètres du modèle. <a href="https://johngab7.shinyapps.io/monte_carlo_for_gmm_estimation/">Accéder à l'Application d'Estimation GMM par Monte Carlo</a></p>
             </div>
         </div>
-        <img src="../_static/log.png" alt="ULB Logo" class="logosec">
+        <img src="../_static/log.png" alt="Actu-Basic Logo" class="logosec">
     </div>
 .. raw:: html
 
@@ -187,6 +187,6 @@
             <p>Actu-Basics est un projet visant à fournir des ressources pour apprendre et comprendre les bases de l'actuariat, des statistiques et de l'analyse des données. <a href="https://johngab7.github.io/Actu_Basics/">Accéder au projet Actu-Basics</a></p>
             </div>
         </div>
-        <img src="../_static/log.png" alt="ULB Logo" class="logosec">
+        <img src="../_static/log.png" alt="Actu-Basic Logo" class="logosec">
     </div>
 
