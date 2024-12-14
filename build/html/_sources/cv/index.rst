@@ -152,8 +152,6 @@
 
     <div class="jumbotron" style="background: linear-gradient(135deg, #2c3e50, #4ca1af); color: white; text-align: center; padding: 2rem 2rem; border-radius: 15px; margin-bottom: 2rem; word-wrap: break-word; overflow-wrap: break-word;">
     <p class="card-text">Ici vous trouverez mon parcours académique et professionnel, ainsi que mes projets.</p>
-    <p class="card-text"></p>
-    <small class="card-text">Mon CV est teléchargeable au format pdf en cliquant sur le bouon en bas de cette écran</small>
     </div>
 
 .. raw:: html
