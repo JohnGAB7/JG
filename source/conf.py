@@ -11,7 +11,7 @@ sys.path.insert(0, os.path.abspath('.'))
 # -- Project information -----------------------------------------------------
 project = "JG's World"
 author = 'John GABARY'
-copyright = '2024, {John GABARY}'
+copyright = '2024, John GABARY'
 
 # -- General configuration ---------------------------------------------------
 extensions = [
@@ -45,7 +45,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # -- HTML output options -----------------------------------------------------
 html_theme = "pydata_sphinx_theme"
 html_logo = "_static/photo.png"
-html_favicon = "_static/photo.png"
+html_favicon = "_static/log.png"
 html_sourcelink_suffix = ""
 html_last_updated_fmt = ""
 # html_extra_path = ['_static']
@@ -81,21 +81,30 @@ html_theme_options = {
         },
     ],
     "logo": {
-        "text": "John GABARY",
+        "text": "JG's World",
         "image_dark": "_static/photo.png",
     },
-    "use_edit_page_button": True,
-    "show_toc_level": 10,
+    "use_edit_page_button": False,
+    "show_toc_level": 1,
     "navbar_align": "left",
-    "show_nav_level": 2 ,
-    "announcement": "",
+    "show_nav_level": 2,  # Niveau de navigation à afficher
+    "navigation_depth": 2,  # Profondeur de la navigation
+    "collapse_navigation": True,  # Réduire la navigation
+    "show_toc_level": 1,  # Niveau de la table des matières à afficher
+
+    "announcement": "Hello 👋! Bienvenue ici",
     "show_version_warning_banner": True,
-    "footer_start": ["copyright"],
-    "footer_center": ["sphinx-version"],
+    #"footer_start": ["copyright"],
+    #"footer_center": ["sphinx-version"],
     "secondary_sidebar_items": {
-        #"**/*": ["page-toc", "edit-this-page", "sourcelink"],
-        "examples/no-sidebar": [],
+        "**/*": ["page-toc", "edit-this-page"],
+        #"no-sidebar": [],
     },
+}
+
+# Désactiver la barre latérale
+html_sidebars = {
+    "**": []
 }
 
 html_context = {
@@ -223,4 +232,3 @@ epub_exclude_files = ['search.html']
 
 # Optional back to top button in HTML
 # "back_to_top_button": True, 
-

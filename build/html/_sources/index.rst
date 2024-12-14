@@ -1,21 +1,8 @@
-Hello 👋! 
-============
-Bienvenue sur la page de **John GABARY**
-=======================================================
 
 .. raw:: html
 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'); 
-        
-        body { 
-            font-family: 'Menlo', monospace;
-            background-color: #f4f4f9; 
-            color: #333; 
-            margin: 0; 
-            padding: 0;
-            text-align: center; 
-        }
 
         .block {
             margin-bottom: 40px;
@@ -166,7 +153,7 @@ Bienvenue sur la page de **John GABARY**
             white-space: nowrap;
             overflow: hidden;
             border-right: .20em;
-            animation: typing 12s steps(140, end), blink-caret 1s step-end infinite;
+            animation: typing 12s steps(40, end), blink-caret 1s step-end infinite;
         }
 
         .typing-slow {
@@ -178,15 +165,15 @@ Bienvenue sur la page de **John GABARY**
         }
 
         .delay-1 {
-            animation-delay: 0s;
+            animation-delay: 6s;
         }
 
         .delay-2 {
-            animation-delay: 1s;
+            animation-delay: 12s;
         }
 
         .delay-3 {
-            animation-delay: 5s;
+            animation-delay: 16s;
         }
 
         @keyframes typing {
@@ -203,58 +190,52 @@ Bienvenue sur la page de **John GABARY**
             from, to { border-color: transparent; }
             50% { border-color: white; }
         }
-
-        @media only screen and (max-width: 600px) {
-            .skills-container, .languages-container, .interests-container,
-            .education-container, .experience-container {
-                flex-direction: column;
-            }
-
-            .skill-card, .language-card, .interest-card, .education-card, .experience-card {
-                flex: 1 1 100%;
-            }
-
-            .block {
-                padding: 10px;
-                overflow: visible;
-            }
-
-            .contact-form {
-                padding: 10px;
-            }
-
-            .typing-container, .text {
-                font-size: 0.9em;
-            }
         }
     </style>
+    
 
-    <div class="block">
-        <div class="typing-slow">
-            <strong>Actuaire junior</strong>, spécialisé en modélisation statistique et gestion des risques.
-        </div>
-    </div>
+   <div class="jumbotron" style="background: linear-gradient(135deg, #2c3e50, #4ca1af); color: white; text-align: center; padding: 2rem 2rem; border-radius: 20px; margin-bottom: 2rem; word-wrap: break-word; overflow-wrap: break-word;">
+    <h1 class="display-4 typing-slow">Bienvenue sur ma page</h1>
+   </div>
 
-    <div class="typing-container">
-        <div class="text">
-            Diplômé en sciences actuarielles de l'Université Libre de Bruxelles 🎓, je combine expertise quantitative et programmation pour résoudre des problématiques complexes en actuariat non-vie et finance.
+   <div class="jumbotron" style="background: linear-gradient(135deg, #2c3e50, #4ca1af); color: white; text-align: center; padding: 2rem 1rem; border-radius: 15px; margin-bottom: 2rem;">
+     <hr class="my-4">
+     <p></p>
+     <div class="card-deck">
+       <div class="card">
+         <div class="card-body">
+           <h4 class="card-title">À propos de moi</h4>
+           <p class="card-text"></p>
+           <p class="card-text typing-slow delay-1">Je suis <strong>John GABARY</strong>, <strong>Actuaire</strong> passioné par la modélisation statistique et actuarielle.</p>
+           <p class="card-text"></p>
+           <a href="about.html" class="btn btn-primary">En savoir plus</a>
+         </div>
+       </div>
+       <div class="card">
+         <div class="card-body">
+           <h4 class="card-title">Mon CV</h4>
+           <p class="card-textt typing-slow delay-2">Découvrez mon parcours académique et professionnel.</p>
+            <p class="card-text"></p>
+           <a href="cv.html" class="btn btn-primary">Voir mon CV</a>
+         </div>
+       </div>
+       <div class="card">
+         <div class="card-body">
+           <h4 class="card-title">Mes Projets</h4>
+           <p class="card-textt typing-slow delay-3">Explorez mes projets réalisés et en cours.</p>
+            <p class="card-text"></p>
+           <a href="projects.html" class="btn btn-primary">Voir mes projets</a>
+         </div>
+       </div>
+     </div>
+   </div>
 
-            Gravissant les échelons de la réussite 🚀, je suis déterminé à exceller dans le domaine de l'actuariat.
-        </div>
-    </div>
-
-    <div class="typing-container">
-        <div class="text delay-2">
-            Découvrez ici mon parcours académique et mes réalisations professionnelles. 🌟
-        </div>
-    </div>
-
+   
 .. toctree::
-   :maxdepth: 1
-   :caption: Voir :
+   :maxdepth: 2
+   :caption: Contenu:
 
-   formation_academique
-   experiences_professionnelles
-   competences
-
-.. include:: contact.rst
+   about/index
+   cv/index
+   projects/index
+   contact/index

@@ -1,0 +1,36 @@
+Mon CV
+======
+
+## Parcours Académique
+
+- [Diplôme 1] - [Université], [Année]
+- [Diplôme 2] - [Université], [Année]
+
+## Expérience Professionnelle
+
+- [Poste 1] - [Entreprise], [Année - Année]
+  - Description des responsabilités et réalisations.
+- [Poste 2] - [Entreprise], [Année - Année]
+  - Description des responsabilités et réalisations.
+
+## Projets Réalisés
+
+- [Projet 1]
+  - Description du projet.
+- [Projet 2]
+  - Description du projet.
+
+## Projets en Cours
+
+- [Projet 3]
+  - Description du projet.
+
+## Télécharger mon CV
+
+.. raw:: html
+
+  <a href="projecs.html" class="btn btn-primary">Voir mes projets</a>
+
+.. raw:: html
+
+   <a href="_static/mon_cv.pdf" class="btn btn-primary">Télécharger mon CV</a>

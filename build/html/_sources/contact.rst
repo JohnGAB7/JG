@@ -1,9 +1,11 @@
 Contactez-moi 📞
---------------------------
-
-Pour toute question ou demande de collaboration, n'hésitez pas à me contacter via le formulaire ci-dessous :
+====================
 
 .. raw:: html
+
+    <div class="jumbotron">
+        <p>Pour toute question ou demande de collaboration, n'hésitez pas à me contacter via le formulaire ci-dessous :</p>
+    </div>
 
     <style>
         .contact-form {
@@ -22,6 +24,11 @@ Pour toute question ou demande de collaboration, n'hésitez pas à me contacter 
             margin: 10px 0;
             border: 1px solid #ccc;
             border-radius: 5px;
+        }
+
+        .contact-form input::placeholder,
+        .contact-form textarea::placeholder {
+            color: #999;
         }
 
         .contact-form button {
@@ -43,7 +50,7 @@ Pour toute question ou demande de collaboration, n'hésitez pas à me contacter 
 
         /* Animation styles */
         .animated {
-            animation-duration: 60s;
+            animation-duration: 1s;
             animation-fill-mode: both;
         }
 
@@ -61,19 +68,26 @@ Pour toute question ou demande de collaboration, n'hésitez pas à me contacter 
                 opacity: 1;
             }
         }
+
+        .footer-message {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 1.2em;
+            color: #555;
+        }
     </style>
 
     <form action="https://formspree.io/f/mldekjld" method="POST" class="contact-form animated fadeInUp">
         <label for="firstname">Prénom:</label><br>
-        <input type="text" id="firstname" name="firstname" required><br>
+        <input type="text" id="firstname" name="firstname" placeholder="John" required><br>
         <label for="lastname">Nom:</label><br>
-        <input type="text" id="lastname" name="lastname" required><br>
+        <input type="text" id="lastname" name="lastname" placeholder="Doe" required><br>
         <label for="email">Adresse Email:</label><br>
-        <input type="email" id="email" name="email" required><br>
+        <input type="email" id="email" name="email" placeholder="john.doe@example.com" required><br>
         <label for="phone">Téléphone:</label><br>
-        <input type="tel" id="phone" name="phone" required><br>
+        <input type="tel" id="phone" name="phone" placeholder="+33 6 12 34 56 78" required><br>
         <label for="message">Message:</label><br>
-        <textarea id="message" name="message" rows="4" required></textarea><br>
+        <textarea id="message" name="message" rows="4" placeholder="Votre message ici..." required></textarea><br>
         <button type="submit">Envoyer</button>
         <div class="hidden" id="success-message">
             <p>Votre message a été envoyé avec succès !</p>
@@ -81,6 +95,7 @@ Pour toute question ou demande de collaboration, n'hésitez pas à me contacter 
         <div class="hidden" id="error-message">
             <p>Une erreur s'est produite lors de l'envoi de votre message. Veuillez réessayer.</p>
         </div>
+        <small id="emailHelp" class="form-text text-muted">Nous ne partagerons jamais votre email avec quelqu'un d'autre.</small>
     </form>
 
 .. raw:: html
@@ -135,8 +150,8 @@ Pour toute question ou demande de collaboration, n'hésitez pas à me contacter 
         });
     </script>
 
-Retour d'expérience et Contributions
-------------------------------------
-Si vous avez des suggestions ou souhaitez contribuer à ce site, vous pouvez créer une pull request ou ouvrir une issue sur `GitHub <https://johngab7.github.io/Actu_Basics/>`_.
+.. raw:: html
 
-Merci de votre visite !
+    <div class="footer-message">
+        Merci de votre visite !
+    </div>

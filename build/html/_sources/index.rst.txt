@@ -1,0 +1,46 @@
+Bienvenue sur Mon Portfolio
+===========================
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contenu:
+
+   about
+   cv
+   projects
+   contact
+
+.. raw:: html
+
+   <div class="jumbotron">
+     <h1 class="display-4">Bienvenue!</h1>
+     <p class="lead">Je suis [Ton Nom], un [ton métier]. Bienvenue sur mon portfolio en ligne.</p>
+     <hr class="my-4">
+     <p>Découvrez mon parcours, mes projets et comment me contacter.</p>
+     <div class="card-deck">
+       <div class="card">
+         <img src="_static/myimage1.jpg" class="card-img-top" alt="...">
+         <div class="card-body">
+           <h5 class="card-title">À propos de moi</h5>
+           <p class="card-text">Je suis [Ton Nom], un [ton métier] avec une passion pour [tes passions].</p>
+           <a href="about.html" class="btn btn-primary">En savoir plus</a>
+         </div>
+       </div>
+       <div class="card">
+         <img src="_static/myimage2.jpg" class="card-img-top" alt="...">
+         <div class="card-body">
+           <h5 class="card-title">Mon CV</h5>
+           <p class="card-text">Découvrez mon parcours académique et professionnel.</p>
+           <a href="cv.html" class="btn btn-primary">Voir mon CV</a>
+         </div>
+       </div>
+       <div class="card">
+         <img src="_static/myimage3.jpg" class="card-img-top" alt="...">
+         <div class="card-body">
+           <h5 class="card-title">Mes Projets</h5>
+           <p class="card-text">Explorez mes projets réalisés et en cours.</p>
+           <a href="projects.html" class="btn btn-primary">Voir mes projets</a>
+         </div>
+       </div>
+     </div>
+   </div>
