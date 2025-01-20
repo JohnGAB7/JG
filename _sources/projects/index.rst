@@ -160,6 +160,29 @@
     <div class="section"></div>
     <div class="card">
         <h4>Applications Shiny</h4>
+        <div class="mini-card">
+        <h5>Analyse des taux de mortalité et de longévité</h5>
+        <p>
+            Explorez l'analyse des taux de mortalité et de longévité à travers cette application interactive. 
+            Cette application vous permet de :
+            <ul>
+            <li>Sélectionner le pays et télécharger les données de décès et d'exposition de la base de données HMD.</li>
+            <li>Vérifier automatiquement les données téléchargées pour détecter les valeurs manquantes.</li>
+            <li>Calculer les taux de mortalité pour chaque année et groupe d'âge.</li>
+            <li>Visualiser les taux de mortalité par sexe et par cohorte à l'aide de graphiques interactifs.</li>
+            <li>Projeter les taux de mortalité futurs à l'aide du modèle Lee-Carter.</li>
+            <li>Créer et exporter des tables de mortalité complètes pour une analyse plus approfondie.</li>
+            </ul>
+            <a href="https://your_shinyapps_url.shinyapps.io/your_app" target="_blank" class="btn btn-primary">Accéder à l'application</a>
+        </p>
+        </div>
+        <img src="../_static/log.png" alt="Actu-Basic Logo" class="logosec">
+    </div>
+.. raw:: html
+
+    <div class="section"></div>
+    <div class="card">
+        <h4>Applications Shiny</h4>
         <div class="achievements">
             <div class="mini-card">
             <h5>Convergence de l'Estimation par Maximum de Vraisemblance (MLE)</h5>

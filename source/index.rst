@@ -217,33 +217,32 @@
      <hr class="my-4">
      <p></p>
      <div class="card-deck">
-       <div class="card">
-         <div class="card-body">
-           <h4 class="card-title">À propos de moi</h4>
-           <p class="card-text"></p>
-           <p class="card-text">Je suis <strong>John GABARY</strong>, <strong>Actuaire</strong> passioné par la modélisation statistique et actuarielle.</p>
-           <p class="card-text"></p>
-           <a href="about.html" class="btn btn-primary">En savoir plus</a>
-         </div>
-       </div>
-       <div class="card">
-         <div class="card-body">
-           <h4 class="card-title">Mon CV</h4>
-           <p class="card-text">Découvrez mon parcours académique et professionnel.</p>
-            <p class="card-text"></p>
-           <a href="cv.html" class="btn btn-primary">Voir mon CV</a>
-         </div>
-       </div>
-       <div class="card">
-         <div class="card-body">
-           <h4 class="card-title">Mes Projets</h4>
-           <p class="card-text">Explorez mes projets réalisés et en cours.</p>
-            <p class="card-text"></p>
-           <a href="projects.html" class="btn btn-primary">Voir mes projets</a>
-         </div>
-       </div>
+   <div class="card">
+     <div class="card-body">
+       <h4 class="card-title">À propos de moi</h4>
+       <p class="card-text"></p>
+       <p class="card-text">Je suis <strong>John GABARY</strong>, <strong>Actuaire</strong> passioné par la modélisation statistique et actuarielle.</p>
+       <p class="card-text"></p>
+       <a href="about/index.html" class="btn btn-primary">En savoir plus</a>
      </div>
    </div>
+   <div class="card">
+     <div class="card-body">
+       <h4 class="card-title">Mon CV</h4>
+       <p class="card-text">Découvrez mon parcours académique et professionnel.</p>
+        <p class="card-text"></p>
+       <a href="cv/index.html" class="btn btn-primary">Voir mon CV</a>
+     </div>
+   </div>
+   <div class="card">
+     <div class="card-body">
+       <h4 class="card-title">Mes Projets</h4>
+       <p class="card-text">Explorez mes projets réalisés et en cours.</p>
+        <p class="card-text"></p>
+       <a href="projects/index.html" class="btn btn-primary">Voir mes projets</a>
+     </div>
+   </div>
+
 
    
 .. toctree::
