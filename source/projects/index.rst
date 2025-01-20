@@ -185,11 +185,13 @@
         <div class="achievements">
             <div class="mini-card">
             <h5>Convergence de l'Estimation par Maximum de Vraisemblance (MLE)</h5>
-            <p>Explorez le comportement de la convergence de l'Estimation par Maximum de Vraisemblance (MLE) dans divers scénarios statistiques. Visualisez les trajectoires de convergence, les estimations des paramètres et les statistiques associées. Plongez dans différents modèles et observez les performances de MLE dans différents contextes. <a href="https://johngab7.shinyapps.io/mle_convergence_in_r/">Accéder à l'Application de Convergence MLE</a></p>
+            <p>Explorez le comportement de la convergence de l'Estimation par Maximum de Vraisemblance (MLE) dans divers scénarios statistiques. Visualisez les trajectoires de convergence, les estimations des paramètres et les statistiques associées. Plongez dans différents modèles et observez les performances de MLE dans différents contextes. 
+            <a href="https://johngab7.shinyapps.io/mle_convergence_in_r/"  target="_blank" class="btn btn-primary">Accéder à l'Application</a></p>
             </div>
             <div class="mini-card">
             <h5>Estimation GMM par Monte Carlo</h5>
-            <p>Cette application se concentre sur la convergence de l'estimation par la Méthode des Moments Généralisés (GMM) à travers des simulations Monte Carlo. Examinez les performances de GMM dans différentes conditions, y compris les tailles d'échantillon et les valeurs des paramètres réels. Visualisez les résultats des estimations et obtenez des insights sur l'efficacité de GMM dans l'estimation des paramètres du modèle. <a href="https://johngab7.shinyapps.io/monte_carlo_for_gmm_estimation/">Accéder à l'Application d'Estimation GMM par Monte Carlo</a></p>
+            <p>Cette application se concentre sur la convergence de l'estimation par la Méthode des Moments Généralisés (GMM) à travers des simulations Monte Carlo. Examinez les performances de GMM dans différentes conditions, y compris les tailles d'échantillon et les valeurs des paramètres réels. Visualisez les résultats des estimations et obtenez des insights sur l'efficacité de GMM dans l'estimation des paramètres du modèle. 
+            <a href="https://johngab7.shinyapps.io/monte_carlo_for_gmm_estimation/" target="_blank" class="btn btn-primary">Accéder à l'application</a>
             </div>
         </div>
     </div>
@@ -205,7 +207,8 @@
         <div class="achievements">
             <div class="mini-card">
             <h5>Actu-Basics</h5>
-            <p>Actu-Basics est un projet visant à fournir des ressources pour apprendre et comprendre les bases de l'actuariat, des statistiques et de l'analyse des données. <a href="https://johngab7.github.io/Actu_Basics/">Accéder au projet Actu-Basics</a></p>
+            <p>Actu-Basics est un projet visant à fournir des ressources pour apprendre et comprendre les bases de l'actuariat, des statistiques et de l'analyse des données. 
+            <a href="https://johngab7.github.io/Actu_Basics/"  target="_blank" class="btn btn-primary">Accéder au projet Actu-Basics</a></p>
             </div>
         </div>
         <img src="../_static/log.png" alt="Actu-Basic Logo" class="logosec">
