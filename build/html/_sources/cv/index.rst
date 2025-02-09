@@ -278,24 +278,6 @@
                 </ul>
             </div>
         </div>
-        <img src="../_static/axa.png" alt="AXA Logo" class="logosec">
-    </div>
-    <div class="card">
-        <h5>Actuaire Consultant Junior</h5>
-        <p class="institution">Act-Unity s.a/n.v</p>
-        <p class="date">Août 2024 - Présent</p>
-        <div class="achievements">
-            <div class="mini-card">
-                <ul>
-                    <li>Mission chez le client.</li>
-                </ul>
-            </div>
-            <div class="mini-card">
-                <ul>
-                    <li>Réunion d'équipe.</li>
-                </ul>
-            </div>
-        </div>
         <img src="../_static/act.png" alt="Act-Unity Logo" class="logosec">
     </div>
     <div class="card">
