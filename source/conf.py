@@ -45,11 +45,11 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # -- HTML output options -----------------------------------------------------
 html_theme = "pydata_sphinx_theme"
 html_logo = "_static/photo.png"
-html_favicon = "_static/log.png"
+html_favicon = "_static/photo.png"
 html_sourcelink_suffix = ""
 html_last_updated_fmt = ""
 # html_extra_path = ['_static']
-html_title = "JG's World"
+html_title = "John_GABARY"
 
 # PyData theme customization
 html_theme_options = {
