@@ -52,7 +52,7 @@
             color: #333;
             display: flex;
             flex-wrap: wrap;
-            gap: 10px;
+            gap: 5px;
         }
         .mini-card {
             background-color: #fff;
@@ -173,11 +173,13 @@
             <li>Projeter les taux de mortalité futurs à l'aide du modèle Lee-Carter.</li>
             <li>Créer et exporter des tables de mortalité complètes pour une analyse plus approfondie.</li>
             </ul>
+            <p></p>
             <a href="https://johngab7.shinyapps.io/part1/" target="_blank" class="btn btn-primary">Accéder à l'application</a>
         </p>
         </div>
         <img src="../_static/log.png" alt="Actu-Basic Logo" class="logosec">
     </div>
+
 .. raw:: html
 
     <div class="section"></div>
@@ -186,21 +188,31 @@
             <div class="mini-card">
             <h5>Convergence de l'Estimation par Maximum de Vraisemblance (MLE)</h5>
             <p>Explorez le comportement de la convergence de l'Estimation par Maximum de Vraisemblance (MLE) dans divers scénarios statistiques. Visualisez les trajectoires de convergence, les estimations des paramètres et les statistiques associées. Plongez dans différents modèles et observez les performances de MLE dans différents contextes. 
+            <p></p>
             <a href="https://johngab7.shinyapps.io/mle_convergence_in_r/"  target="_blank" class="btn btn-primary">Accéder à l'Application</a></p>
             </div>
+        </div>
+    </div>
+
+.. raw:: html
+
+    <div class="section"></div>
+    <div class="card">
+        <div class="achievements">
             <div class="mini-card">
             <h5>Estimation GMM par Monte Carlo</h5>
             <p>Cette application se concentre sur la convergence de l'estimation par la Méthode des Moments Généralisés (GMM) à travers des simulations Monte Carlo. Examinez les performances de GMM dans différentes conditions, y compris les tailles d'échantillon et les valeurs des paramètres réels. Visualisez les résultats des estimations et obtenez des insights sur l'efficacité de GMM dans l'estimation des paramètres du modèle. 
+            <p></p>
             <a href="https://johngab7.shinyapps.io/monte_carlo_for_gmm_estimation/" target="_blank" class="btn btn-primary">Accéder à l'application</a>
             </div>
         </div>
     </div>
+
 .. raw:: html
 
     <div class="jumbotron" style="background: linear-gradient(135deg, #2c3e50, #4ca1af); color: white; text-align: center; padding: 2rem 2rem; border-radius: 15px; margin-bottom: 2rem; word-wrap: break-word; overflow-wrap: break-word;">
     <p class="card-text display-4 typing-slow">Nouveaux</p>
     </div>
-
     <div class="section"></div>
     <div class="card">
         <h4>Auto Apprentissage</h4>
@@ -208,6 +220,7 @@
             <div class="mini-card">
             <h5>Actu-Basics</h5>
             <p>Actu-Basics est un projet visant à fournir des ressources pour apprendre et comprendre les bases de l'actuariat, des statistiques et de l'analyse des données. 
+            <p></p>
             <a href="https://johngab7.github.io/Actu_Basics/"  target="_blank" class="btn btn-primary">Accéder au projet Actu-Basics</a></p>
             </div>
         </div>
