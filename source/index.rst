@@ -1,5 +1,7 @@
 .. _Home:
 
+Accueil
+=========
 .. raw:: html
 
     <style>
