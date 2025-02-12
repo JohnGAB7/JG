@@ -9,7 +9,7 @@ from sphinx.application import Sphinx
 sys.path.insert(0, os.path.abspath('.'))
 
 # -- Project information -----------------------------------------------------
-project = "JG's World"
+project = "JG World"
 author = 'John GABARY'
 copyright = '2024, John GABARY'
 
@@ -82,7 +82,7 @@ html_theme_options = {
         },
     ],
     "logo": {
-        "text": "John_GABARY",
+        "text": "JG's World",
         "image_dark": "_static/photo.png",
     },
     "use_edit_page_button": False,

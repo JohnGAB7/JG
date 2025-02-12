@@ -1,3 +1,4 @@
+.. _Home:
 
 .. raw:: html
 
