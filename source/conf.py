@@ -49,7 +49,7 @@ html_favicon = "_static/photo.png"
 html_sourcelink_suffix = ""
 html_last_updated_fmt = ""
 # html_extra_path = ['_static']
-html_title = "John_GABARY"
+html_title = "JG's World"
 
 # PyData theme customization
 html_theme_options = {
@@ -57,7 +57,7 @@ html_theme_options = {
     "icon_links": [
         {
             "name": "Twitter",
-            "url": "https://twitter.com/PyData",
+            "url": "https://twitter.com/JohnGABARY",
             "icon": "fa-brands fa-twitter",
         },
         {
@@ -82,7 +82,7 @@ html_theme_options = {
         },
     ],
     "logo": {
-        "text": "JG's World",
+        "text": "John_GABARY",
         "image_dark": "_static/photo.png",
     },
     "use_edit_page_button": False,
@@ -93,7 +93,7 @@ html_theme_options = {
     "collapse_navigation": True,  # Réduire la navigation
     "show_toc_level": 1,  # Niveau de la table des matières à afficher
 
-    "announcement": "Hello 👋! Bienvenue ici",
+    "announcement": "Hello 👋!",
     "show_version_warning_banner": True,
     #"footer_start": ["copyright"],
     #"footer_center": ["sphinx-version"],
