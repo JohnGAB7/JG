@@ -161,6 +161,29 @@
     <div class="card">
         <h4>Applications Shiny</h4>
         <div class="mini-card">
+        <h5>Analyse et Prédiction des Sinistres Automobiles</h5>
+        <p>
+            Cette application Shiny permet d'explorer et de modéliser les données de sinistres d'assurance automobile. Les fonctionnalités incluent :
+            <ul>
+            <li>Exploration interactive des données de sinistres (âge du conducteur, âge du véhicule, puissance du véhicule, etc.).</li>
+            <li>Modélisation statistique avec GLM (Régression Linéaire Généralisée) et GAM (Modèles Additifs Généralisés).</li>
+            <li>Visualisations interactives, y compris des cartes Leaflet et des graphiques de corrélation.</li>
+            <li>Validation des modèles avec des métriques de performance (AIC, BIC, MAE) et des courbes ROC.</li>
+            <li>Prédiction des fréquences de sinistres et visualisation des résultats.</li>
+            </ul>
+            <p></p>
+            <a href="https://johngab7.shinyapps.io/MortalityApp/" target="_blank" class="btn btn-primary">Accéder à l'application</a>
+        </p>
+        </div>
+        <img src="../_static/log.png" alt="Insurance Analytics Logo" class="logosec">
+    </div>
+
+    
+.. raw:: html
+
+    <div class="section"></div>
+    <div class="card">
+        <div class="mini-card">
         <h5>Analyse des taux de mortalité et de longévité</h5>
         <p>
             Explorez l'analyse des taux de mortalité et de longévité à travers cette application interactive. 
@@ -174,10 +197,9 @@
             <li>Créer et exporter des tables de mortalité complètes pour une analyse plus approfondie.</li>
             </ul>
             <p></p>
-            <a href="https://johngab7.shinyapps.io/MortalityApp/" target="_blank" class="btn btn-primary">Accéder à l'application</a>
+            <a href="https://johngab7.shinyapps.io/PredictCarCrash/" target="_blank" class="btn btn-primary">Accéder à l'application</a>
         </p>
         </div>
-        <img src="../_static/log.png" alt="Actu-Basic Logo" class="logosec">
     </div>
 
 .. raw:: html
