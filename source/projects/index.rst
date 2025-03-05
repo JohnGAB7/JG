@@ -174,7 +174,7 @@
             <li>Créer et exporter des tables de mortalité complètes pour une analyse plus approfondie.</li>
             </ul>
             <p></p>
-            <a href="https://johngab7.shinyapps.io/part1/" target="_blank" class="btn btn-primary">Accéder à l'application</a>
+            <a href="https://johngab7.shinyapps.io/MortalityApp/" target="_blank" class="btn btn-primary">Accéder à l'application</a>
         </p>
         </div>
         <img src="../_static/log.png" alt="Actu-Basic Logo" class="logosec">
