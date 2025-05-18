@@ -183,7 +183,7 @@ CV
     <div class="card">
         <h5>Master en Actuariat</h5>
         <p class="institution">Université Libre de Bruxelles</p>
-        <p class="date">2021 - 2024</p>
+        <p class="date">2024</p>
         <div class="achievements">
             <div class="mini-card">
                 <h6>Cours principaux</h6>
@@ -203,7 +203,7 @@ CV
     <div class="card">
         <h5>Maîtrise en Économie Mathématique</h5>
         <p class="institution">Université de Dschang</p>
-        <p class="date">2020 - 2021</p>
+        <p class="date">2021</p>
         <div class="achievements">
             <div class="mini-card">
                 <h6>Cours principaux</h6>
@@ -221,7 +221,7 @@ CV
     <div class="card">
         <h5>Licence en Économie Mathématique</h5>
         <p class="institution">Université de Dschang</p>
-        <p class="date">2019 - 2020</p>
+        <p class="date">2020</p>
         <div class="achievements">
             <div class="mini-card">
                 <h6>Cours principaux</h6>
@@ -239,7 +239,7 @@ CV
     <div class="card">
         <h5>Technicien Supérieur de la Statistique</h5>
         <p class="institution">Institut Sous-Régional de Statistique et d’Économie Appliquée</p>
-        <p class="date">2017 - 2019</p>
+        <p class="date">2019</p>
         <div class="achievements">
             <div class="mini-card">
                 <h6>Cours principaux</h6>
