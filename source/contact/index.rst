@@ -171,11 +171,6 @@ Contact
     <!-- Ajouter dans le fichier HTML (ou bloc raw dans Sphinx) -->
     <div class="likebtn-wrapper" data-theme="custom" data-ef="bounce" data-lang="fr" data-identifier="page_contact"></div>
     <script src="https://w.likebtn.com/js/w/widget.js" async></script>
-    <!-- LikeBtn.com BEGIN -->
-    <span class="likebtn-wrapper" data-identifier="item_1"></span>
-    <script>(function(d,e,s){if(d.getElementById("likebtn_wjs"))return;a=d.createElement(e);m=d.getElementsByTagName(e)[0];a.async=1;a.id="likebtn_wjs";a.src=s;m.parentNode.insertBefore(a, m)})(document,"script","//w.likebtn.com/js/w/widget.js");</script>
-    <!-- LikeBtn.com END -->
-
     <div class="footer-message">
         Merci de votre visite !
     </div>
