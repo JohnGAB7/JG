@@ -181,7 +181,7 @@ CV
     <div class="section">🎓 Formation Académique</div>
 
     <div class="card">
-        <h5>Master en Sciences Actuarielles</h5>
+        <h5>Master en Actuariat</h5>
         <p class="institution">Université Libre de Bruxelles</p>
         <p class="date">2021 - 2024</p>
         <div class="achievements">
