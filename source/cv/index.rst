@@ -1,4 +1,6 @@
-📄 CV
+.. _cv-index:
+
+CV
 ==========
 
 .. raw:: html
@@ -148,138 +150,129 @@
             background-color: #2c3e50; /* Couleur pour les compétences interpersonnelles */
             color: white;
         }
+        .skill-logo img {
+            background-color:rgb(250, 250, 250); /* Couleur pour les compétences interpersonnelles */
+            color: white;
+            width: 60px;
+            height: auto;
+            margin: 10px;
+        }
+        .skill-logo {
+            background-color: white;
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 10px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+        }
+        .skill-logo img {
+            max-width: 60%;
+            max-height: 60%;
+        }
+
     </style>
 
-    <div class="jumbotron" style="background: linear-gradient(135deg, #2c3e50, #4ca1af); color: white; text-align: center; padding: 2rem 2rem; border-radius: 15px; margin-bottom: 2rem; word-wrap: break-word; overflow-wrap: break-word;">
-    <p class="card-text">Ici vous trouverez mon parcours académique et professionnel, ainsi que mes projets.</p>
-    </div>
 
 .. raw:: html
 
-    <div class="section">Formation Académique</div>
+    <div class="section">🎓 Formation Académique</div>
+
     <div class="card">
         <h5>Master en Sciences Actuarielles</h5>
         <p class="institution">Université Libre de Bruxelles</p>
-        <p class="date">2021-2024</p>
+        <p class="date">2021 - 2024</p>
         <div class="achievements">
             <div class="mini-card">
+                <h6>Cours principaux</h6>
                 <ul>
                     <li>Probabilités et Statistiques</li>
+                    <li>Assurance Vie et Non-Vie</li>
                     <li>Mathématiques Financières</li>
-                    <li>Assurance Vie</li>
-                    <li>Assurance Non-Vie</li>
-                    <li>Gestion des Risques</li>
-                    <li>Analyse des Données</li>
-                </ul>
-            </div>
-            <div class="mini-card">
-                <ul>
-                    <li>ALM en Assurance</li>
-                    <li>Réassurance</li>
-                    <li>Financement des Régimes de Retraite</li>
-                    <li>Économétrie</li>
-                    <li>Modélisation Stochastique</li>
-                    <li>Projet de Mémoire</li>
+                    <li>Gestion des Risques, ALM, Réassurance</li>
+                    <li>Analyse de Données, Modélisation Stochastique</li>
+                    <li>Économétrie, Projet de Mémoire</li>
                 </ul>
             </div>
         </div>
         <img src="../_static/ulb.png" alt="ULB Logo" class="logosec">
     </div>
+
     <div class="card">
         <h5>Maîtrise en Économie Mathématique</h5>
         <p class="institution">Université de Dschang</p>
-        <p class="date">2020-2021</p>
+        <p class="date">2020 - 2021</p>
         <div class="achievements">
             <div class="mini-card">
+                <h6>Cours principaux</h6>
                 <ul>
-                    <li>Analyse des Séries Chronologiques</li>
-                    <li>Modélisation Économique</li>
-                    <li>Analyse de Bases de Données</li>
-                    <li>Économétrie Avancée</li>
-                    <li>Macroéconomie Dynamique</li>
-                </ul>
-            </div>
-            <div class="mini-card">
-                <ul>
-                    <li>Microéconomie Avancée</li>
-                    <li>Théorie des Jeux</li>
-                    <li>Recherche Opérationnelle</li>
-                    <li>Projet de Mémoire</li>
+                    <li>Séries Chronologiques, Modélisation Économique</li>
+                    <li>Économétrie Avancée, Macro/Microéconomie Dynamique</li>
+                    <li>Analyse de Bases de Données, Théorie des Jeux</li>
+                    <li>Recherche Opérationnelle, Projet de Mémoire</li>
                 </ul>
             </div>
         </div>
         <img src="../_static/uds.png" alt="Université de Dschang Logo" class="logosec">
     </div>
+
     <div class="card">
         <h5>Licence en Économie Mathématique</h5>
         <p class="institution">Université de Dschang</p>
-        <p class="date">2019-2020</p>
+        <p class="date">2019 - 2020</p>
         <div class="achievements">
             <div class="mini-card">
+                <h6>Cours principaux</h6>
                 <ul>
-                    <li>Recherche Opérationnelle</li>
-                    <li>Macrodynamique</li>
-                    <li>Économétrie</li>
-                    <li>Microéconomie</li>
-                </ul>
-            </div>
-            <div class="mini-card">
-                <ul>
-                    <li>Statistiques</li>
-                    <li>Probabilités</li>
-                    <li>Mathématiques Financières</li>
+                    <li>Statistiques, Probabilités, Économétrie</li>
+                    <li>Mathématiques Financières, Recherche Opérationnelle</li>
+                    <li>Microéconomie, Macrodynamique</li>
                     <li>Projet de Mémoire</li>
                 </ul>
             </div>
         </div>
         <img src="../_static/uds.png" alt="Université de Dschang Logo" class="logosec">
     </div>
+
     <div class="card">
         <h5>Technicien Supérieur de la Statistique</h5>
         <p class="institution">Institut Sous-Régional de Statistique et d’Économie Appliquée</p>
-        <p class="date">2017-2019</p>
+        <p class="date">2017 - 2019</p>
         <div class="achievements">
             <div class="mini-card">
+                <h6>Cours principaux</h6>
                 <ul>
-                    <li>Statistiques Descriptives</li>
-                    <li>Probabilités</li>
-                    <li>Microéconomie</li>
-                    <li>Macroéconomie</li>
-                </ul>
-            </div>
-            <div class="mini-card">
-                <ul>
-                    <li>Économétrie</li>
-                    <li>Analyse de Données</li>
-                    <li>Mathématiques Financières</li>
-                    <li>Projet de Fin d'Études</li>
+                    <li>Statistiques Descriptives, Probabilités</li>
+                    <li>Microéconomie, Macroéconomie</li>
+                    <li>Économétrie, Analyse de Données</li>
+                    <li>Mathématiques Financières, Projet de Fin d'Études</li>
                 </ul>
             </div>
         </div>
-        <img src="../_static/issea.png" alt="ISRSEA Logo" class="logosec">
+        <img src="../_static/issea.png" alt="ISSEA Logo" class="logosec">
     </div>
 
 .. raw:: html
 
-    <div class="section">Expériences Professionnelles</div>
+    <div class="section">💼 Expériences Professionnelles</div>
+
     <div class="card">
-        <h5>Actuaire Consultant Junior</h5>
+        <h5>Consultant Actuaire Junior</h5>
         <p class="institution">Act-Unity s.a/n.v</p>
         <p class="date">Août 2024 - Présent</p>
         <div class="achievements">
             <div class="mini-card">
                 <ul>
-                    <li>Renouvellement des plans d'assurance groupe.</li>
-                </ul>
-            </div>
-            <div class="mini-card">
-                <ul>
-                    <li>Contact employeur.</li>
+                    <li>Renouvellement et tarification des plans d’assurance groupe.</li>
+                    <li>Analyses actuarielles de régimes à cotisations définies (DC) et prestations définies (DB).</li>
                 </ul>
             </div>
         </div>
-        <img src="../_static/act.png" alt="Act-Unity Logo" class="logosec">
+        <img src="../_static/act.png" alt="Logo Act-Unity" class="logosec">
     </div>
+
     <div class="card">
         <h5>Stagiaire en Actuariat</h5>
         <p class="institution">Europ Assistance Belgique</p>
@@ -287,19 +280,15 @@
         <div class="achievements">
             <div class="mini-card">
                 <ul>
-                    <li>Analyse de rentabilité des produits d’assistance.</li>
-                    <li>Création de tableaux de bord financiers.</li>
-                </ul>
-            </div>
-            <div class="mini-card">
-                <ul>
-                    <li>Automatisation de la gestion des risques via Power BI.</li>
-                    <li>Tarification des produits d'assurance.</li>
+                    <li>Développement de tableaux de bord Power BI et Excel, réduisant le temps de reporting de 30 %.</li>
+                    <li>Construction de modèles GLM avec AKUR8 pour l’analyse des coûts de sinistres (amélioration de la tarification de 20 %).</li>
+                    <li>Analyses de sensibilité sur scénarios tarifaires, augmentant les marges opérationnelles de 12 %.</li>
                 </ul>
             </div>
         </div>
-        <img src="../_static/europas.png" alt="Europ Assistance Logo" class="logosec">
+        <img src="../_static/europas.png" alt="Logo Europ Assistance" class="logosec">
     </div>
+
     <div class="card">
         <h5>Technicien Supérieur de la Statistique</h5>
         <p class="institution">Ministère de l’Habitat et du Développement Urbain</p>
@@ -307,19 +296,14 @@
         <div class="achievements">
             <div class="mini-card">
                 <ul>
-                    <li>Suivi des projets d'urbanisme.</li>
-                    <li>Élabaration des statistiques sectorielles.</li>
-                </ul>
-            </div>
-            <div class="mini-card">
-                <ul>
-                    <li>Coordination administrative.</li>
-                    <li>Suivi des projets d'urbanisme.</li>
+                    <li>Suivi et évaluation des projets d’urbanisme.</li>
+                    <li>Production de statistiques sectorielles pour la planification.</li>
                 </ul>
             </div>
         </div>
-        <img src="../_static/minhdu.png" alt="Ministère de l’Habitat et du Développement Urbain Logo" class="logosec">
+        <img src="../_static/minhdu.png" alt="Logo Ministère de l’Habitat et du Développement Urbain" class="logosec">
     </div>
+
     <div class="card">
         <h5>Stagiaire en Statistique</h5>
         <p class="institution">Cameroon Policy Analysis and Research Center</p>
@@ -328,40 +312,41 @@
             <div class="mini-card">
                 <ul>
                     <li>Analyse de la performance budgétaire.</li>
-                    <li>Production de statistiques pour le suivi de projets.</li>
+                    <li>Élaboration d’indicateurs pour le suivi de projets.</li>
                 </ul>
             </div>
         </div>
-        <img src="../_static/camercap.png" alt="Cameroon Policy Analysis and Research Center Logo" class="logosec">
+        <img src="../_static/camercap.png" alt="Logo Cameroon Policy Analysis and Research Center" class="logosec">
     </div>
 
 .. raw:: html
 
-    <div class="section">Compétences</div>
+    <div class="section">🛠️ Compétences</div>
+
     <div class="card">
         <h5>Compétences Techniques</h5>
         <div class="achievements">
             <div class="mini-card">
                 <ul>
-                    <li>Analyse de données</li>
-                    <li>Modélisation statistique</li>
-                    <li>Programmation en R et Python</li>
-                    <li>Gestion des risques</li>
-                    <li>Économétrie</li>
+                    <li><strong>Langages</strong> : Python, R, SQL, VBA, SAS</li>
+                    <li><strong>BI & Visualisation</strong> : Power BI, Tableau, Excel (Power Query)</li>
+                    <li><strong>Modélisation</strong> : GLM, GAM, Forêts aléatoires, Gradient Boosting</li>
+                    <li><strong>Actuariat</strong> : Tarification Auto/Non-Vie, rentabilité, segmentation, reporting</li>
+                    <li><strong>Certification en cours</strong> : Data Science avec Python et R</li>
                 </ul>
             </div>
         </div>
     </div>
+
     <div class="card">
         <h5>Compétences Interpersonnelles</h5>
         <div class="achievements">
             <div class="mini-card">
                 <ul>
-                    <li>Communication efficace</li>
-                    <li>Travail en équipe</li>
+                    <li>Communication claire</li>
+                    <li>Esprit d’équipe</li>
                     <li>Résolution de problèmes</li>
-                    <li>Gestion de projet</li>
-                    <li>Leadership</li>
+                    <li>Leadership et initiative</li>
                 </ul>
             </div>
         </div>
@@ -369,30 +354,32 @@
 
 .. raw:: html
 
-    <div class="section">Compétences</div>
+
     <div class="skills-container">
-        <!-- Compétences Techniques -->
-        <div class="skill-circle technical">
-            <span>Analyse de données</span>
-            <div class="emoji">📊</div>
+        <!-- Logos des logiciels / outils techniques maîtrisés -->
+        <div class="skill-logo technical">
+            <img src="../_static/python.png" alt="Python" title="Python">
         </div>
-        <div class="skill-circle technical">
-            <span>Modélisation statistique</span>
-            <div class="emoji">📈</div>
+        <div class="skill-logo technical">
+            <img src="../_static/rr.jpg" alt="R" title="R">
         </div>
-        <div class="skill-circle technical">
-            <span>Programmation en R et Python</span>
-            <div class="emoji">💻</div>
+        <div class="skill-logo technical">
+            <img src="../_static/sql.png" alt="SQL" title="SQL">
         </div>
-        <div class="skill-circle technical">
-            <span>Gestion des risques</span>
-            <div class="emoji">⚖️</div>
+        <div class="skill-logo technical">
+            <img src="../_static/sas.png" alt="SAS" title="SAS">
         </div>
-        <div class="skill-circle technical">
-            <span>Économétrie</span>
-            <div class="emoji">📉</div>
+        <div class="skill-logo technical">
+            <img src="../_static/powerbi.png" alt="Power BI" title="Power BI">
+        </div>
+        <div class="skill-logo technical">
+            <img src="../_static/excel.png" alt="Excel" title="Excel">
+        </div>
+        <div class="skill-logo technical">
+            <img src="../_static/akur8.png" alt="AKUR8" title="AKUR8">
         </div>
     </div>
+
     <div class="skills-container">
         <!-- Compétences Interpersonnelles -->
         <div class="skill-circle interpersonal">
@@ -408,14 +395,12 @@
             <div class="emoji">🧩</div>
         </div>
         <div class="skill-circle interpersonal">
-            <span>Gestion de projet</span>
-            <div class="emoji">📅</div>
-        </div>
-        <div class="skill-circle interpersonal">
             <span>Leadership</span>
             <div class="emoji">🌟</div>
         </div>
     </div>
+
+
 
 .. raw:: html
 
@@ -481,5 +466,11 @@
 .. raw:: html
 
     <div class="footer-message">
-        <a href="../_static/cv.pdf" class="btn btn-primary">Télécharger mon CV</a>
+    <label for="cv-select">CV:</label>
+    <select id="cv-select" onchange="window.location.href = this.value;">
+        <option value="">--</option>
+        <option value="../_static/cv_fr.pdf">🇫🇷 Français</option>
+        <option value="../_static/cv_en.pdf">🇬🇧 English</option>
+    </select>
     </div>
+

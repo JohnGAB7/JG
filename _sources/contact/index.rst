@@ -1,103 +1,132 @@
 .. _contact-index:
 
-📞 Contactez-moi
-====================
+Contact
+=========
 
 .. raw:: html
 
-    <div class="jumbotron">
-        <p>Pour toute question ou demande de collaboration, n'hésitez pas à me contacter via le formulaire ci-dessous :</p>
-    </div>
-
     <style>
+        .jumbotron {
+            background: linear-gradient(135deg, #2c3e50, #4ca1af);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            border-radius: 15px;
+            margin-bottom: 2rem;
+        }
+
         .contact-form {
             max-width: 600px;
             margin: auto;
-            padding: 20px;
-            background-color: #f7f7f7;
+            padding: 2rem;
+            background-color: #ffffff;
             border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            animation: fadeInUp 1s ease-in-out;
+        }
+
+        .contact-form label {
+            display: block;
+            margin: 1rem 0 0.3rem;
+            font-weight: 600;
+            color: #333;
         }
 
         .contact-form input,
         .contact-form textarea {
             width: 100%;
-            padding: 10px;
-            margin: 10px 0;
+            padding: 0.75rem;
             border: 1px solid #ccc;
             border-radius: 5px;
+            font-size: 1rem;
+            resize: vertical;
         }
 
-        .contact-form input::placeholder,
-        .contact-form textarea::placeholder {
-            color: #999;
+        .contact-form input:focus,
+        .contact-form textarea:focus {
+            outline: none;
+            border-color: #4ca1af;
+            box-shadow: 0 0 5px rgba(76, 161, 175, 0.5);
         }
 
         .contact-form button {
-            background-color: #007bff;
-            color: white;
-            padding: 10px 20px;
+            margin-top: 1.5rem;
+            background-color: #4ca1af;
             border: none;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            font-size: 1rem;
             border-radius: 5px;
             cursor: pointer;
+            transition: background-color 0.3s;
         }
 
         .contact-form button:hover {
-            background-color: #0056b3;
+            background-color: #3b8a9e;
         }
 
-        .contact-form .hidden {
+        .form-feedback {
+            margin-top: 1rem;
             display: none;
+            font-size: 0.95rem;
+            text-align: center;
         }
 
-        /* Animation styles */
-        .animated {
-            animation-duration: 1s;
-            animation-fill-mode: both;
+        .form-feedback.success {
+            color: #28a745;
         }
 
-        .fadeInUp {
-            animation-name: fadeInUp;
-        }
-
-        @keyframes fadeInUp {
-            from {
-                transform: scale(0.5);
-                opacity: 0;
-            }
-            to {
-                transform: scale(1);
-                opacity: 1;
-            }
+        .form-feedback.error {
+            color: #dc3545;
         }
 
         .footer-message {
             text-align: center;
-            margin-top: 50px;
-            font-size: 1.2em;
+            margin-top: 3rem;
+            font-size: 1.2rem;
             color: #555;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
     </style>
 
-    <form action="https://formspree.io/f/mldekjld" method="POST" class="contact-form animated fadeInUp">
-        <label for="firstname">Prénom:</label><br>
-        <input type="text" id="firstname" name="firstname" placeholder="John" required><br>
-        <label for="lastname">Nom:</label><br>
-        <input type="text" id="lastname" name="lastname" placeholder="Doe" required><br>
-        <label for="email">Adresse Email:</label><br>
-        <input type="email" id="email" name="email" placeholder="john.doe@example.com" required><br>
-        <label for="phone">Téléphone:</label><br>
-        <input type="tel" id="phone" name="phone" placeholder="+33 6 12 34 56 78" required><br>
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message" rows="4" placeholder="Votre message ici..." required></textarea><br>
+    <div class="jumbotron">
+        <p>Pour toute question ou demande de collaboration, n'hésitez pas à me contacter via le formulaire ci-dessous :</p>
+    </div>
+
+    <form action="https://formspree.io/f/mldekjld" method="POST" class="contact-form" aria-label="Formulaire de contact">
+        <label for="firstname">Prénom</label>
+        <input type="text" id="firstname" name="firstname" placeholder="John" required>
+
+        <label for="lastname">Nom</label>
+        <input type="text" id="lastname" name="lastname" placeholder="Doe" required>
+
+        <label for="email">Adresse email</label>
+        <input type="email" id="email" name="email" placeholder="john.doe@example.com" required>
+
+        <label for="phone">Téléphone</label>
+        <input type="tel" id="phone" name="phone" placeholder="+33 6 12 34 56 78" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Votre message ici..." required></textarea>
+
         <button type="submit">Envoyer</button>
-        <div class="hidden" id="success-message">
-            <p>Votre message a été envoyé avec succès !</p>
-        </div>
-        <div class="hidden" id="error-message">
-            <p>Une erreur s'est produite lors de l'envoi de votre message. Veuillez réessayer.</p>
-        </div>
-        <small id="emailHelp" class="form-text text-muted">Nous ne partagerons jamais vos informations avec quelqu'un d'autre.</small>
+
+        <div id="success-message" class="form-feedback success">Votre message a été envoyé avec succès !</div>
+        <div id="error-message" class="form-feedback error">Une erreur est survenue. Veuillez réessayer.</div>
+
+        <small class="form-text text-muted" style="display:block; margin-top:1rem; text-align:center;">
+            Vos informations resteront strictement confidentielles.
+        </small>
     </form>
 
 .. raw:: html
@@ -110,6 +139,9 @@
 
             form.addEventListener("submit", function (event) {
                 event.preventDefault();
+                successMessage.style.display = "none";
+                errorMessage.style.display = "none";
+
                 const formData = new FormData(form);
 
                 fetch(form.action, {
@@ -121,38 +153,28 @@
                 }).then(response => {
                     if (response.ok) {
                         form.reset();
-                        successMessage.classList.remove("hidden");
-                        errorMessage.classList.add("hidden");
+                        successMessage.style.display = "block";
                     } else {
-                        successMessage.classList.add("hidden");
-                        errorMessage.classList.remove("hidden");
+                        errorMessage.style.display = "block";
                     }
-                }).catch(error => {
-                    successMessage.classList.add("hidden");
-                    errorMessage.classList.remove("hidden");
+                }).catch(() => {
+                    errorMessage.style.display = "block";
                 });
             });
-
-            function reveal() {
-                var reveals = document.querySelectorAll(".animated");
-                for (var i = 0; i < reveals.length; i++) {
-                    var windowHeight = window.innerHeight;
-                    var elementTop = reveals[i].getBoundingClientRect().top;
-                    var elementVisible = 150;
-                    if (elementTop < windowHeight - elementVisible) {
-                        reveals[i].classList.add("active");
-                    } else {
-                        reveals[i].classList.remove("active");
-                    }
-                }
-            }
-
-            window.addEventListener("scroll", reveal);
-            reveal(); // To check the scroll position on page load
         });
     </script>
 
+
+
 .. raw:: html
+
+    <!-- Ajouter dans le fichier HTML (ou bloc raw dans Sphinx) -->
+    <div class="likebtn-wrapper" data-theme="custom" data-ef="bounce" data-lang="fr" data-identifier="page_contact"></div>
+    <script src="https://w.likebtn.com/js/w/widget.js" async></script>
+    <!-- LikeBtn.com BEGIN -->
+    <span class="likebtn-wrapper" data-identifier="item_1"></span>
+    <script>(function(d,e,s){if(d.getElementById("likebtn_wjs"))return;a=d.createElement(e);m=d.getElementsByTagName(e)[0];a.async=1;a.id="likebtn_wjs";a.src=s;m.parentNode.insertBefore(a, m)})(document,"script","//w.likebtn.com/js/w/widget.js");</script>
+    <!-- LikeBtn.com END -->
 
     <div class="footer-message">
         Merci de votre visite !
