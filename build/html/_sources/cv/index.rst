@@ -468,7 +468,6 @@ CV
     <div class="footer-message">
     <label for="cv-select">CV:</label>
     <select id="cv-select" onchange="window.location.href = this.value;">
-        <option value="">--</option>
         <option value="../_static/cv_fr.pdf">🇫🇷 Français</option>
         <option value="../_static/cv_en.pdf">🇬🇧 English</option>
     </select>
