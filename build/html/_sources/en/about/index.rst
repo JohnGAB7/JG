@@ -89,8 +89,7 @@ About Me
 
 .. raw:: html
 
-    
-    <div style="text-align: center; margin: 2rem auto;">
+     <div style="text-align: center; margin: 2rem auto;">
         <video width="720" height="405" controls>
             <source src="../_static/actubasics_intro.mp4" type="video/mp4">
             Your browser does not support the video tag.
