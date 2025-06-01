@@ -49,6 +49,7 @@ Hello  👋!
     </div>
 
 .. toctree::
+   :hidden:
    :maxdepth: 2
 
    fr/index
