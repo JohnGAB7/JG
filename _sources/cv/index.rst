@@ -465,11 +465,11 @@ CV
 
 .. raw:: html
 
-    <div class="footer-message">
-    <label for="cv-select">CV:</label>
-    <select id="cv-select" onchange="window.location.href = this.value;">
-        <option value="../_static/cv_fr.pdf">🇫🇷 Français</option>
-        <option value="../_static/cv_en.pdf">🇬🇧 English</option>
+    <select onchange="window.location.href = this.value;">
+    <option selected disabled>🌐 Language</option>
+    <option value="fr/index.html">🇫🇷 Français</option>
+    <option value="en/index.html">🇬🇧 English</option>
     </select>
-    </div>
+
+
 

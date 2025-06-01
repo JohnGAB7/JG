@@ -36,7 +36,7 @@ extensions = [
 ]
 
 # Documentation language
-language = 'fr'
+language = 'none'
 
 # Template paths and exclusion patterns
 templates_path = ['_templates']
@@ -48,7 +48,7 @@ html_logo = "_static/log.png"
 html_favicon = "_static/log.png"
 html_sourcelink_suffix = ""
 html_last_updated_fmt = ""
-# html_extra_path = ['_static']
+html_extra_path = ['_static']
 html_title = "JG"
 
 # PyData theme customization
@@ -86,13 +86,11 @@ html_theme_options = {
         "image_dark": "_static/log1.png",
     },
     "use_edit_page_button": False,
-    "show_toc_level": 1,
+    "show_toc_level": 10,
     "navbar_align": "left",
-    "show_nav_level": 2,  # Niveau de navigation à afficher
-    "navigation_depth": 2,  # Profondeur de la navigation
-    "collapse_navigation": True,  # Réduire la navigation
-    "show_toc_level": 1,  # Niveau de la table des matières à afficher
-
+    "show_nav_level": 3,  # Niveau de navigation à afficher
+    "show_toc_level": 2,  # Niveau de la table des matières à afficher
+    "navigation_with_keys": True,  # Activation navigation avec touches clavier
     "announcement": "Hello 👋!",
     "show_version_warning_banner": True,
     #"footer_start": ["copyright"],
@@ -108,6 +106,7 @@ html_sidebars = {
     "**": []
 }
 
+
 html_context = {
     "github_user": "pydata",
     "github_repo": "pydata-sphinx-theme",
@@ -122,7 +121,7 @@ rediraffe_redirects = {
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ["_static"]
+#html_static_path = ["_static"]
 html_css_files = ["custom.css"]
 todo_include_todos = True
 
