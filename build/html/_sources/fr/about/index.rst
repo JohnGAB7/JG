@@ -89,11 +89,15 @@
 
 .. raw:: html
 
-    <div style="text-align: center; margin: 2rem auto;">
-        <video width="720" height="405" controls>
-            <source src="../../_static/actubasics_intro.mp4" type="video/mp4">
-            Votre navigateur ne supporte pas la vidéo.
-        </video>
-        <p style="color: #333; font-style: italic;">🎥 Vidéo de présentation de la chaîne Actu-Basics</p>
+    <div class="section">Présentation d’Actu-Basics</div>
+    <div class="card">
+        <div class="card-body" style="text-align:center;">
+            <p>Découvrez mon initiative <strong>Actu-Basics</strong> en vidéo, une plateforme pour rendre l’actuariat plus vivant, plus clair, et plus humain.</p>
+            <video width="720" height="405" controls>
+                <source src="../../_static/actubasics_intro.mp4" type="video/mp4">
+                Votre navigateur ne supporte pas la lecture vidéo.
+            </video>
+        </div>
     </div>
+
 

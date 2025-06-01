@@ -48,7 +48,7 @@ html_logo = "_static/log.png"
 html_favicon = "_static/log.png"
 html_sourcelink_suffix = ""
 html_last_updated_fmt = ""
-html_extra_path = ['_static']
+#html_extra_path = ['_static']
 html_title = "JG"
 
 # PyData theme customization
@@ -121,7 +121,7 @@ rediraffe_redirects = {
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-#html_static_path = ["_static"]
+html_static_path = ["_static"]
 html_css_files = ["custom.css"]
 todo_include_todos = True
 
