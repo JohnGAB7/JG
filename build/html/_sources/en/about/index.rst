@@ -1,4 +1,4 @@
-.. _about-en:
+.. _about-index:
 
 About Me
 =====================

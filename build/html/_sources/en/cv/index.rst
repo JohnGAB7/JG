@@ -1,4 +1,4 @@
-.. _cv-en:
+.. _cv-index:
 
 Curriculum Vitae
 ==============================

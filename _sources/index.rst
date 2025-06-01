@@ -1,6 +1,6 @@
 .. _Home:
 
-Bienvenue / Welcome
+Hello  👋!
 ========================
 
 .. raw:: html
@@ -30,6 +30,8 @@ Bienvenue / Welcome
         }
     </style>
 
+
+
     <div class="lang-switch">
         <label for="lang-select" style="font-weight: bold; margin-right: 0.5rem;">🌍 Veuillez choisir votre langue / Please select your language :</label>
         <select id="lang-select" onchange="window.location.href = this.value;">
@@ -47,8 +49,7 @@ Bienvenue / Welcome
     </div>
 
 .. toctree::
-   :hidden:
-   :maxdepth: 8
+   :maxdepth: 2
 
    fr/index
    en/index

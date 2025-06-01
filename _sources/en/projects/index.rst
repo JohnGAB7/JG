@@ -1,4 +1,4 @@
-.. _projects-en:
+.. _projects-index:
 
 Projects
 ===========
