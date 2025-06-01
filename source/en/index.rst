@@ -130,7 +130,7 @@ Home
     </div>
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 8
    :caption: Navigation
 
    about/index

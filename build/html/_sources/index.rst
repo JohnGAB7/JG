@@ -46,3 +46,9 @@ Bienvenue / Welcome
         <img src="_static/language-hero.png" alt="Language selection hero" style="max-width: 100%; border-radius: 15px;">
     </div>
 
+.. toctree::
+   :hidden:
+   :maxdepth: 8
+
+   fr/index
+   en/index

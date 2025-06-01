@@ -89,7 +89,7 @@ html_theme_options = {
     "show_toc_level": 10,
     "navbar_align": "left",
     "show_nav_level": 3,  # Niveau de navigation à afficher
-    "show_toc_level": 2,  # Niveau de la table des matières à afficher
+    "show_toc_level": 10,  # Niveau de la table des matières à afficher
     "navigation_with_keys": True,  # Activation navigation avec touches clavier
     "announcement": "Hello 👋!",
     "show_version_warning_banner": True,

@@ -90,12 +90,9 @@ About Me
 .. raw:: html
 
     <div class="section">Discover Actu-Basics</div>
-    <div class="card">
-        <div class="card-body" style="text-align:center;">
-            <p>Discover my project <strong>Actu-Basics</strong> through this video introduction — a platform designed to make actuarial science more visual, more human, and more impactful.</p>
-            <video width="720" height="405" controls>
-                <source src="../../_static/actubasics_intro.mp4" type="video/mp4">
-                Your browser does not support video playback.
-            </video>
-        </div>
+     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 2rem auto; border-radius: 12px; box-shadow: 0 5px 20px rgba(0,0,0,0.1);">
+        <video controls style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+            <source src="../../_static/actubasics_intro.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
     </div>
