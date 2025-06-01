@@ -89,8 +89,11 @@ About Me
 
 .. raw:: html
 
-    <div class="section">My YouTube Channel: Actu-Basics</div>
-    <div style="text-align: center; margin-bottom: 3rem;">
-        <iframe width="720" height="405" src="https://app.animaker.com/video/UZ5Z2M0Z75ZZVRH4" frameborder="0" allowfullscreen style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.2);"></iframe>
-        <p style="margin-top: 1rem; font-size: 1rem; color: #444;">Introduction to the Actu-Basics project: a channel to make actuarial science more visual, accessible, and engaging.</p>
+    
+    <div style="text-align: center; margin: 2rem auto;">
+        <video width="720" height="405" controls>
+            <source src="../_static/actubasics_intro.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <p style="color: #333; font-style: italic;">🎥 Introduction video from the Actu-Basics channel</p>
     </div>
