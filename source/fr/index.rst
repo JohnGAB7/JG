@@ -1,7 +1,7 @@
 .. _fr-index:
 
 Accueil
-=========
+==================
 
 .. raw:: html
 
@@ -9,135 +9,117 @@ Accueil
         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
         body {
-            font-family: 'Roboto', sans-serif;
-            background-color: #f0f2f5;
+            background-color: #0F2B36;
+            color: #DDFCF8;
+            font-family: 'Segoe UI', sans-serif;
         }
 
-        .jumbotron {
-            background: linear-gradient(135deg, #2c3e50, #4ca1af);
-            color: white;
+        h1, h2 {
+            color: #62F2C5;
             text-align: center;
-            padding: 3rem 2rem;
-            border-radius: 20px;
-            margin-bottom: 3rem;
-        }
-
-        .jumbotron h1 {
-            font-size: 2.8rem;
+            margin-top: 3rem;
             margin-bottom: 1rem;
         }
 
-        .jumbotron p {
-            font-size: 1.1rem;
-            margin: 0.5rem auto;
-            max-width: 800px;
+        .section {
+            margin: 2.5rem auto;
+            max-width: 900px;
+            background-color: #10333F;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            border-left: 6px solid #2DB6A0;
         }
 
-        .card-deck {
+        .section p {
+            font-size: 1.05rem;
+            line-height: 1.7;
+        }
+
+        .hero {
+            text-align: center;
+            margin-top: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .hero h1 {
+            font-size: 2.8rem;
+            margin-bottom: 1rem;
+            color: #DDFCF8;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            color: #DDFCF8;
+            max-width: 800px;
+            margin: 0.5rem auto;
+        }
+
+        .btn-deck {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            gap: 30px;
-            padding: 0 2rem 2rem;
-        }
-
-        .card {
-            flex: 1 1 280px;
-            border-radius: 15px;
-            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
-            background-color: #ffffff;
-            transition: transform 0.3s, box-shadow 0.3s;
-            padding: 1.5rem;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
-
-        .card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
-        }
-
-        .card-title {
-            font-size: 1.4rem;
-            color: #2c3e50;
-            margin-bottom: 0.8rem;
-        }
-
-        .card-text {
-            font-size: 1rem;
-            color: #555;
-            flex-grow: 1;
+            gap: 20px;
+            margin-top: 3rem;
         }
 
         .btnn {
-            display: inline-block;
-            margin-top: 1.5rem;
-            padding: 0.6rem 1.2rem;
-            background-color: #4ca1af;
-            color: white;
-            border-radius: 5px;
+            background-color: #2DB6A0;
+            color: #0F2B36;
+            padding: 0.8rem 1.6rem;
+            border-radius: 8px;
             text-decoration: none;
             font-weight: bold;
+            font-size: 1rem;
             transition: background-color 0.3s;
-            text-align: center;
         }
 
         .btnn:hover {
-            background-color: #2c3e50;
+            background-color: #62F2C5;
+            color: #0F2B36;
         }
     </style>
 
-    <div class="jumbotron">
-    <h1 class="display-4">Bienvenue</h1>
-    <p>Je suis <strong>John GABARY</strong>, Actuaire diplômé, passionné par l'<strong>actuariat moderne</strong>, la <strong>data science</strong> et la <strong>conception de modèles explicables et accessibles</strong>.</p>
-    <p>Ma mission : <em>construire des ponts entre la théorie mathématique, la programmation, et la prise de décision.</em></p>
-    <p>À travers mes projets, je combine rigueur statistique, outils numériques et créativité pour créer des modèles explicables, performants et à impact durable.</p>
+.. raw:: html
+
+    <div class="hero">
+        <h1>Bienvenue 👋</h1>
+        <p>Je suis <strong>John Kevin Leffe Gabary</strong>, actuaire diplômé, passionné par les <strong>sciences actuarielles modernes</strong>, la <strong>data science</strong> et la <strong>pédagogie appliquée</strong>.</p>
+        <p>Mon objectif est de faire le lien entre <em>la rigueur théorique</em>, <em>la modélisation statistique</em> et <em>les applications concrètes</em>.</p>
     </div>
 
+.. raw:: html
 
-    <div class="card-deck">
-        <div class="card">
-            <div class="card-body">
-                <h4 class="card-title">À propos de moi</h4>
-                <p class="card-text">Mon parcours, mes engagements, et ma vision d’un actuariat utile, accessible et tourné vers l’avenir.</p>
-                <a href="about/index.html" class="btnn">En savoir plus</a>
-            </div>
-        </div>
-
-        <div class="card">
-            <div class="card-body">
-                <h4 class="card-title">Mon CV</h4>
-                <p class="card-text">Formations, expériences, compétences et certifications rassemblées ici.</p>
-                <a href="cv/index.html" class="btnn">Explorer</a>
-            </div>
-        </div>
-
-        <div class="card">
-            <div class="card-body">
-                <h4 class="card-title">Mes Projets</h4>
-                <p class="card-text">Projets concrets en actuariat, machine learning, modélisation pédagogique et développement Python.</p>
-                <a href="projects/index.html" class="btnn">Découvrir</a>
-            </div>
-        </div>
-
-        <div class="card">
-            <div class="card-body">
-                <h4 class="card-title">Me contacter</h4>
-                <p class="card-text">Une idée, une collaboration ou une question ? Je suis à votre écoute.</p>
-                <a href="contact/index.html" class="btnn">Contact</a>
-            </div>
-        </div>
+    <div class="section">
+        <h2>🔍 Identité professionnelle</h2>
+        <p>Je combine excellence académique et expertise technique pour développer des modèles robustes, interprétables et utiles. Mon approche valorise à la fois la précision scientifique et la valeur opérationnelle au service de la décision, notamment dans le domaine de l’assurance.</p>
     </div>
 
+.. raw:: html
+
+    <div class="section">
+        <h2>🎯 Mission & Impact</h2>
+        <p>À travers mon projet <strong>Actu-Basics</strong> et d'autres initiatives éducatives, je conçois des ressources interactives simplifiées pour démocratiser les outils actuariels et statistiques.</p>
+        <p>En combinant animation, applications web et bonnes pratiques de codage, je propose des contenus <strong>visuels, pédagogiques et percutants</strong>.</p>
+    </div>
+
+.. raw:: html
+
+    <div class="section">
+        <h2>📌 Accès rapide</h2>
+        <div class="btn-deck">
+            <a href="about/index.html" class="btnn">À propos</a>
+            <a href="cv/index.html" class="btnn">Mon CV</a>
+            <a href="projects/index.html" class="btnn">Projets</a>
+            <a href="contact/index.html" class="btnn">Contact</a>
+        </div>
+    </div>
 
 .. toctree::
-   :maxdepth: 8
-   :caption: Navigation
+   :maxdepth: 2
+   :hidden:
 
    about/index
    cv/index
    projects/index
    contact/index
-
-

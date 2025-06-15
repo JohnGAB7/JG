@@ -1,243 +1,171 @@
 .. _cv-fr:
 
-Curriculum Vitae
-==============================
+Mon CV
+========================
 
 .. raw:: html
 
     <style>
-        .jumbotron {
-            background: linear-gradient(135deg, #2c3e50, #4ca1af);
-            color: white;
-            text-align: center;
-            padding: 2.5rem 1.5rem;
-            border-radius: 20px;
-            margin-bottom: 2.5rem;
+        body {
+            background-color: #0F2B36;
+            color: #DDFCF8;
+            font-family: 'Segoe UI', sans-serif;
         }
-        .section {
-            font-weight: bold;
-            text-align: center;
-            margin: 2.5rem 0 1.5rem;
-            font-size: 2rem;
-            color: #333333;
+
+        h2 {
+            color: #62F2C5;
+            border-bottom: 2px solid #2DB6A0;
+            padding-bottom: 0.4rem;
+            margin-top: 2.5rem;
         }
-        .card {
-            border-radius: 15px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            margin-bottom: 2rem;
-            padding: 20px;
-            background-color: #f9f9f9;
-            border-left: 5px solid #4ca1af;
-            position: relative;
+
+        .entry {
+            background-color: #10333F;
+            padding: 1.2rem;
+            border-left: 5px solid #2DB6A0;
+            border-radius: 10px;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
         }
-        .card h5 {
-            margin-top: 0;
-            color: #4ca1af;
+
+        .entry h4 {
+            margin-bottom: 0.5rem;
+            color: #DDFCF8;
         }
-        .institution, .date {
-            font-style: italic;
-            color: #4ca1af;
+
+        .entry span {
+            display: block;
+            color: #62F2C5;
+            font-size: 0.95rem;
+            margin-bottom: 0.4rem;
         }
-        .logosec {
-            width: 60px;
-            height: 60px;
-            position: absolute;
-            top: 15px;
-            right: 15px;
-        }
-        .skills-container {
+
+        .skills {
             display: flex;
             flex-wrap: wrap;
-            justify-content: center;
-            gap: 20px;
-            margin-top: 2rem;
+            gap: 10px;
+            margin-top: 1rem;
         }
-        .skill-logo {
-            background-color: white;
-            border-radius: 50%;
-            width: 80px;
-            height: 80px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
-        }
-        .skill-logo img {
-            max-width: 60%;
-            max-height: 60%;
+
+        .skill {
+            background-color: #2DB6A0;
+            color: #0F2B36;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.95rem;
         }
     </style>
 
-    <div class="jumbotron">
-        <h1 class="display-4">John Kevin LEFFE GABARY</h1>
-        <p>Actuaire Junior &nbsp; | &nbsp; Statisticien &nbsp; | &nbsp; Analyste de Données</p>
-        <p>Rue Saint-Pierre, 1000 Bruxelles &nbsp; | &nbsp; +32 465 13 84 73 &nbsp; | &nbsp; johngabary@gmail.com</p>
+.. raw:: html
+
+    <h2>🎓 Formation</h2>
+
+    <div class="entry">
+        <h4>Master en Sciences Actuarielles</h4>
+        <span>Université Libre de Bruxelles (ULB) · 2021 – 2024</span>
+        <p>Formation approfondie en mathématiques de l'assurance, théorie du risque, statistiques appliquées et tarification.</p>
+    </div>
+
+    <div class="entry">
+        <h4>Échange académique – Actuariat</h4>
+        <span>Université Catholique de Louvain · 2023</span>
+        <p>Semestre spécialisé en cours actuariels avancés.</p>
+    </div>
+
+    <div class="entry">
+        <h4>Licence en Économie Mathématique</h4>
+        <span>Université de Dschang · 2020 – 2021</span>
+        <p>Analyse économique, optimisation, modélisation quantitative et macroéconomie.</p>
+    </div>
+
+    <div class="entry">
+    <h4>Diplôme de Technicien Supérieur de la Statistique</h4>
+    <span>ISSEA-CEMAC · 2017 – 2019</span>
+    <p>
+        Formation professionnalisante en statistique descriptive, statistique mathématique, méthodes d’enquête, démographie, gestion financière et informatique.
+    </p>
+    </div>
+
+    <div class="entry">
+        <h4>Classe Préparatoire – Mathématiques et Sciences de l’Ingénieur</h4>
+        <span>ENSPY · 2015 – 2017</span>
+        <p>Préparation intensive en mathématiques, physique et bases d’ingénierie.</p>
     </div>
 
 .. raw:: html
 
-    <div class="section">🎯 Profil</div>
+    <h2>💼 Expériences Professionnelles</h2>
 
-    <div class="card">
-        <p>Actuaire junior avec une expérience concrète en <strong>tarification Non-Vie</strong>, <strong>analyse de la rentabilité</strong> et <strong>modélisation prédictive</strong>.</p>
-        <p>Compétent en <strong>R</strong> et <strong>Python</strong>, avec un intérêt marqué pour la <strong>data science appliquée à l’assurance</strong>.</p>
-        <p>J’aime utiliser des outils techniques pour soutenir la <strong>prise de décision stratégique</strong> et améliorer les structures tarifaires.</p>
+    <div class="entry">
+        <h4>Actuaire Junior</h4>
+        <span>Act-Unity · Août 2024 – Aujourd’hui</span>
+        <p>Intervention sur des contrats d’assurance groupe et régimes de pension.</p>
+    </div>
+
+    <div class="entry">
+        <h4>Stagiaire Actuaire</h4>
+        <span>Europ Assistance · Déc. 2023 – Juil. 2024</span>
+        <p>Création de dashboards (Power BI), outils de tarification GLM (AKUR8), et suivi de performance produit.</p>
+    </div>
+
+    <div class="entry">
+        <h4>Tuteur académique – Mathématiques & Statistiques</h4>
+        <span>Freelance · 2021 – Aujourd’hui</span>
+        <p>Soutien aux étudiants en probabilité, économétrie et statistiques appliquées. Méthode centrée sur l’intuition et la clarté.</p>
+    </div>
+
+    <div class="entry">
+        <h4>Statisticien</h4>
+        <span>Ministère de l'Habitat et du Développement Urbain · 2020 – 2021</span>
+        <p>Collecte et analyse de données urbaines, production de rapports synthétiques pour la planification des infrastructures.</p>
     </div>
 
 .. raw:: html
 
-    <div class="section">💼 Expériences Professionnelles</div>
+    <h2>🚀 Projets Personnels</h2>
 
-    <div class="card">
-        <h5>Consultant Actuaire Junior</h5>
-        <p class="institution">Act-Unity s.a/n.v, Belgique</p>
-        <p class="date">Août 2024 – Présent</p>
-        <ul>
-            <li>Renouvellement et ajustement des plans de prévoyance collective.</li>
-            <li>Analyses actuarielles pour régimes à prestations et cotisations définies.</li>
-        </ul>
-        <img src="../../_static/act.png" alt="Act-Unity" class="logosec">
+    <div class="entry">
+        <h4>Fondateur – Actu-Basics</h4>
+        <span>Jan. 2024 – Aujourd’hui</span>
+        <p>Plateforme pédagogique pour simplifier les sciences actuarielles, la data science et les statistiques à travers des vidéos animées et des outils interactifs.</p>
     </div>
 
-    <div class="card">
-        <h5>Stagiaire Actuaire</h5>
-        <p class="institution">Europ Assistance Belgium, Bruxelles</p>
-        <p class="date">Décembre 2023 – Juillet 2024</p>
-        <ul>
-            <li>Création de tableaux de bord Power BI / Excel : -30% de temps de reporting.</li>
-            <li>Conception de modèles GLM avec AKUR8 : +20% d’optimisation tarifaire.</li>
-            <li>Études de sensibilité tarifaire : +12% de marge opérationnelle.</li>
-        </ul>
-        <img src="../../_static/europas.png" alt="Europ Assistance" class="logosec">
+    <div class="entry">
+        <h4>Application de Modélisation de Sinistres</h4>
+        <span>Déc. 2024 – Aujourd’hui</span>
+        <p>Simulation interactive de modèles de sinistralité avec visualisation des paramètres et ajustement dynamique.</p>
     </div>
 
-    <div class="card">
-        <h5>Technicien Supérieur de la Statistique</h5>
-        <p class="institution">Ministère de l'Habitat et du Développement Urbain (MINHDU)</p>
-        <p class="date">Octobre 2020 – Août 2021</p>
-        <ul>
-            <li>Suivi et évaluation des projets d’aménagement urbain.</li>
-            <li>Production d’indicateurs statistiques sectoriels.</li>
-        </ul>
-        <img src="../../_static/minhdu.png" alt="MINHDU" class="logosec">
-    </div>
-
-    <div class="card">
-        <h5>Stagiaire en Statistique</h5>
-        <p class="institution">Cameroon Policy Analysis and Research Center</p>
-        <p class="date">Février 2019 – Mai 2019</p>
-        <ul>
-            <li>Élaboration d’indicateurs de performance budgétaire.</li>
-            <li>Suivi statistique de projets publics et politiques économiques.</li>
-        </ul>
-        <img src="../../_static/camercap.png" alt="CAMERCAP-PARC" class="logosec">
+    <div class="entry">
+        <h4>Explorateur de Données de Mortalité</h4>
+        <span>Nov. 2024</span>
+        <p>Application d’analyse de tables de mortalité humaines, avec projections et comparaisons de cohortes via la base HMD.</p>
     </div>
 
 .. raw:: html
 
-    <div class="section">🎓 Formation Académique</div>
-
-    <div class="card">
-        <h5>Master en Sciences Actuarielles</h5>
-        <p class="institution">Université Libre de Bruxelles (ULB)</p>
-        <p class="date">2021 – 2024</p>
-        <ul>
-            <li>GLM, ALM, réassurance, assurance vie & non-vie</li>
-            <li>Projet de mémoire en tarification automobile</li>
-        </ul>
-        <img src="../../_static/ulb.png" alt="ULB" class="logosec">
-    </div>
-
-    <div class="card">
-        <h5>Master en Économie Mathématique</h5>
-        <p class="institution">Université de Dschang</p>
-        <p class="date">2020 – 2021</p>
-        <ul>
-            <li>Économétrie avancée, séries chronologiques, microéconomie dynamique</li>
-        </ul>
-        <img src="../../_static/uds.png" alt="UDS" class="logosec">
-    </div>
-
-    <div class="card">
-        <h5>Licence en Économie Mathématique</h5>
-        <p class="institution">Université de Dschang</p>
-        <p class="date">2017 – 2020</p>
-        <ul>
-            <li>Probabilités, statistiques, économétrie, analyse de données</li>
-        </ul>
-        <img src="../../_static/uds.png" alt="UDS" class="logosec">
-    </div>
-
-    <div class="card">
-        <h5>Technicien Supérieur de la Statistique</h5>
-        <p class="institution">ISSEA (Institut Sous-Régional de Statistique et d’Économie Appliquée)</p>
-        <p class="date">2017 – 2019</p>
-        <ul>
-            <li>Statistique descriptive, échantillonnage, macroéconomie, finance</li>
-        </ul>
-        <img src="../../_static/issea.png" alt="ISSEA" class="logosec">
+    <h2>📊 Compétences Techniques</h2>
+    <div class="skills">
+        <div class="skill">GLM</div>
+        <div class="skill">GAM</div>
+        <div class="skill">Bagging</div>
+        <div class="skill">Forêts aléatoires</div>
+        <div class="skill">Boosting</div>
+        <div class="skill">R / Shiny</div>
+        <div class="skill">Python / Streamlit</div>
+        <div class="skill">LaTeX</div>
+        <div class="skill">SQL</div>
     </div>
 
 .. raw:: html
 
-    <div class="section">🧠 Compétences Techniques</div>
-
-    <div class="card">
-        <ul>
-            <li><strong>Langages et outils :</strong> Python, R, SQL, VBA, SAS</li>
-            <li><strong>BI / Visualisation :</strong> Power BI, Tableau, Excel avancé</li>
-            <li><strong>Modèles :</strong> GLM, GAM, forêt aléatoire, boosting</li>
-            <li><strong>Actuariat :</strong> Tarification Auto / Non-Vie, rentabilité, projection, ALM</li>
-            <li><strong>Certifications en cours :</strong> Data Science avec Python et R</li>
-        </ul>
-    </div>
-
-    <div class="skills-container">
-        <div class="skill-logo"><img src="../../_static/python.png" alt="Python"></div>
-        <div class="skill-logo"><img src="../../_static/rr.jpg" alt="R"></div>
-        <div class="skill-logo"><img src="../../_static/sql.png" alt="SQL"></div>
-        <div class="skill-logo"><img src="../../_static/sas.png" alt="SAS"></div>
-        <div class="skill-logo"><img src="../../_static/powerbi.png" alt="Power BI"></div>
-        <div class="skill-logo"><img src="../../_static/excel.png" alt="Excel"></div>
-        <div class="skill-logo"><img src="../../_static/akur8.png" alt="AKUR8"></div>
-    </div>
-
-.. raw:: html
-
-    <div class="section">🌍 Langues</div>
-
-    <div class="card">
-        <ul>
-            <li>Français : Langue maternelle</li>
-            <li>Anglais : Intermédiaire – Niveau B1</li>
-        </ul>
-    </div>
-
-.. raw:: html
-
-    <div class="section">📄 Télécharger mon CV</div>
-
-    <div style="text-align: center; margin-bottom: 3rem;">
-        <label for="cv-select"><strong>Version :</strong></label>
-        <select id="cv-select" onchange="window.location.href = this.value;" style="margin-left: 0.5rem; padding: 5px; font-size: 1rem;">
-            <option value="../../_static/cv_fr.pdf">Français (PDF)</option>
-            <option value="../../_static/cv_en.pdf">English (PDF)</option>
-        </select>
-    </div>
-
-.. raw:: html
-
-    <div class="section">📁 Voir mes projets</div>
-    <div style="text-align: center; margin-bottom: 3rem;">
-        <a href="../projects/index.html" class="btnn" style="
-            background-color: #4ca1af;
-            color: white;
-            padding: 0.8rem 1.5rem;
-            font-size: 1.1rem;
-            border-radius: 8px;
-            text-decoration: none;
-            font-weight: bold;
-            transition: background-color 0.3s ease;">
-            🚀 Découvrir mes projets
-        </a>
+    <h2>🤝 Compétences Interpersonnelles</h2>
+    <div class="skills">
+        <div class="skill">Rigueur scientifique</div>
+        <div class="skill">Clarté & Communication</div>
+        <div class="skill">Pédagogie</div>
+        <div class="skill">Adaptabilité</div>
+        <div class="skill">Pensée visuelle</div>
+        <div class="skill">Gestion de projet</div>
     </div>

@@ -1,0 +1,32 @@
+.logo-bar-container {
+    overflow: hidden;
+    background-color: #0F2B36;
+    border-top: 3px solid #2DB6A0;
+    border-bottom: 3px solid #2DB6A0;
+    padding: 10px 0;
+    margin-top: 3rem;
+}
+
+.logo-bar {
+    display: flex;
+    gap: 40px;
+    animation: scrollLogos 25s linear infinite;
+    align-items: center;
+    width: max-content;
+}
+
+.logo-bar img {
+    height: 40px;
+    opacity: 0.9;
+    filter: brightness(0) invert(1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.logo-bar img:hover {
+    transform: scale(1.2);
+}
+
+@keyframes scrollLogos {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}

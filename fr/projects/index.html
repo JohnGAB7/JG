@@ -32,6 +32,7 @@
 
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=a746c00c" />
     <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css?v=4ae1632d" />
+    <link rel="stylesheet" type="text/css" href="../../_static/custom.css?v=a61453d5" />
   
   <!-- So that users can add custom icons -->
   <script src="../../_static/scripts/fontawesome.js?digest=26a4bc78f4c0ddb94549"></script>
@@ -47,11 +48,11 @@
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="Contact" href="../contact/index.html" />
-    <link rel="prev" title="Curriculum Vitae" href="../cv/index.html" />
+    <link rel="prev" title="Mon CV" href="../cv/index.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="none"/>
   <meta name="docsearch:version" content="" />
-    <meta name="docbuild:last-update" content="Jun 02, 2025"/>
+    <meta name="docbuild:last-update" content="Jun 15, 2025"/>
   </head>
   
   
@@ -98,7 +99,7 @@
   </button>
   
   
-  <div class=" navbar-header-items__start">
+  <div class="col-lg-3 navbar-header-items__start">
     
       <div class="navbar-item">
 
@@ -127,7 +128,7 @@
     
   </div>
   
-  <div class=" navbar-header-items">
+  <div class="col-lg-9 navbar-header-items">
     
     <div class="me-auto navbar-header-items__center">
       
@@ -433,121 +434,152 @@
   <section id="projets">
 <span id="projects-fr"></span><h1>Projets<a class="headerlink" href="#projets" title="Link to this heading">#</a></h1>
 <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+    body {
+        background-color: #0F2B36;
+        color: #DDFCF8;
+        font-family: 'Segoe UI', sans-serif;
+    }
+
     .jumbotron {
-        background: linear-gradient(135deg, #2c3e50, #4ca1af);
-        color: white;
+        background: linear-gradient(135deg, #0F2B36, #2DB6A0);
+        color:  #DDFCF8;
         text-align: center;
-        padding: 2rem;
-        border-radius: 15px;
-        margin-bottom: 2rem;
-        word-wrap: break-word;
+        padding: 2.5rem 2rem;
+        border-radius: 20px;
+        margin-bottom: 3rem;
+        box-shadow: 0 8px 18px rgba(0,0,0,0.3);
     }
+
     .section {
-        font-weight: bold;
+        font-weight: 700;
         text-align: center;
-        margin: 2rem 0 1rem;
-        font-size: 2rem;
-        color: #333;
+        margin: 2.5rem 0 1.5rem;
+        font-size: 1.9rem;
+        color: #62F2C5;
+        text-transform: uppercase;
     }
+
     .card {
         border-radius: 15px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        background-color: #10333F;
+        padding: 25px;
         margin-bottom: 2rem;
-        padding: 1.5rem;
-        background-color: #f9f9f9;
-        border-left: 5px solid #4ca1af;
-        position: relative;
+        box-shadow: 0 5px 18px rgba(0,0,0,0.25);
+        border-left: 6px solid #2DB6A0;
+        color:  #DDFCF8;
         transition: transform 0.3s, box-shadow 0.3s;
+        position: relative;
     }
+
     .card:hover {
-        transform: scale(1.03);
-        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        transform: scale(1.01);
+        box-shadow: 0 12px 28px rgba(0,0,0,0.35);
     }
+
     .card h2 {
+        color: #62F2C5;
         margin-top: 0;
-        color: #4ca1af;
     }
+
     .mini-card {
-        background-color: #fff;
+        background-color: #0F2B36;
         border-radius: 10px;
-        padding: 1rem;
+        padding: 1rem 1.2rem;
         margin-top: 1rem;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
     }
+
     .mini-card ul {
         padding-left: 20px;
         margin: 0.5rem 0;
     }
+
     .mini-card ul li {
         margin-bottom: 5px;
+        font-size: 1.05rem;
     }
+
+    .mini-card p {
+        font-size: 1.05rem;
+        margin-bottom: 1rem;
+    }
+
     .logosec {
         width: 50px;
         height: 50px;
         position: absolute;
-        top: 10px;
-        right: 10px;
+        top: 15px;
+        right: 15px;
     }
+
     .btn-primary {
-        background-color: #4ca1af;
+        display: inline-block;
+        margin-top: 1rem;
+        background-color: #2DB6A0;
         border: none;
-        padding: 0.5rem 1rem;
-        color: white;
+        padding: 0.6rem 1.2rem;
+        color: #0F2B36;
         border-radius: 5px;
         text-decoration: none;
+        font-weight: bold;
+        transition: background-color 0.3s;
     }
+
     .btn-primary:hover {
-        background-color: #3b8a9e;
+        background-color: #62F2C5;
     }
 </style>
 
 <div class="jumbotron">
-    <h1 class="display-4">Projets Réalisés</h1>
-    <p>Exploration d'applications concrètes en actuariat, data science et statistique appliquée</p>
+    <h1 class="display-4">Mes projets</h1>
+    <p>Applications concrètes en actuariat, data science et modélisation statistique</p>
 </div>
 
 <div class="section">Applications Shiny</div>
 
 <div class="card">
-    <h2>Analyse et Prédiction des Sinistres Automobiles</h2>
+    <h2>Prédiction de Sinistres Auto</h2>
     <div class="mini-card">
         <ul>
-            <li>Exploration interactive des données (âge, véhicule, puissance...)</li>
-            <li>Modélisation GLM et GAM</li>
-            <li>Visualisations interactives (Leaflet, corrélations)</li>
-            <li>Évaluation : AIC, BIC, MAE, ROC</li>
-            <li>Prédiction de fréquence des sinistres</li>
+            <li>Exploration interactive des variables (âge conducteur, puissance véhicule...)</li>
+            <li>Modélisation avec GLM et GAM</li>
+            <li>Visualisations dynamiques (Leaflet, matrices de corrélation)</li>
+            <li>Évaluation des modèles : AIC, BIC, MAE, courbe ROC</li>
+            <li>Prédiction de la fréquence de sinistres</li>
         </ul>
-        <a href="https://johngab7.shinyapps.io/PredictCarCrash/" target="_blank" class="btn-primary">Voir l'application</a>
+        <a href="https://johngab7.shinyapps.io/PredictCarCrash/" target="_blank" class="btn-primary">Ouvrir l'application</a>
     </div>
-    <img src="../../_static/log.png" alt="Insurance Analytics Logo" class="logosec">
+    <img src="../../../../_static/log.png" alt="Logo analytique" class="logosec">
 </div>
 
 <div class="card">
-    <h2>Analyse des Taux de Mortalité</h2>
+    <h2>Analyse de la Mortalité</h2>
     <div class="mini-card">
         <ul>
-            <li>Téléchargement HMD, nettoyage, détection des anomalies</li>
-            <li>Visualisation et projection par Lee-Carter</li>
-            <li>Export de tables de mortalité personnalisées</li>
+            <li>Sélection des pays et import depuis la base HMD</li>
+            <li>Détection des valeurs manquantes</li>
+            <li>Projection avec le modèle de Lee-Carter</li>
+            <li>Export personnalisé des tables de mortalité</li>
         </ul>
-        <a href="https://johngab7.shinyapps.io/MortalityApp/" target="_blank" class="btn-primary">Voir l'application</a>
+        <a href="https://johngab7.shinyapps.io/MortalityApp/" target="_blank" class="btn-primary">Ouvrir l'application</a>
     </div>
 </div>
 
 <div class="card">
-    <h2>Convergence de l'Estimation par Maximum de Vraisemblance (MLE)</h2>
+    <h2>Convergence du Maximum de Vraisemblance</h2>
     <div class="mini-card">
-        <p>Visualisation de la trajectoire de convergence pour différents modèles et scénarios.</p>
-        <a href="https://johngab7.shinyapps.io/mle_convergence_in_r/" target="_blank" class="btn-primary">Voir l'application</a>
+        <p>Visualisation des trajectoires de convergence, des paramètres estimés et des performances selon différents scénarios.</p>
+        <a href="https://johngab7.shinyapps.io/mle_convergence_in_r/" target="_blank" class="btn-primary">Ouvrir l'application</a>
     </div>
 </div>
 
 <div class="card">
-    <h2>Estimation GMM par Monte Carlo</h2>
+    <h2>Simulation Monte Carlo pour GMM</h2>
     <div class="mini-card">
-        <p>Simulation et visualisation de convergence GMM selon différents échantillons.</p>
-        <a href="https://johngab7.shinyapps.io/monte_carlo_for_gmm_estimation/" target="_blank" class="btn-primary">Voir l'application</a>
+        <p>Exploration du comportement de l'estimateur GMM selon les tailles d'échantillons et contextes simulés.</p>
+        <a href="https://johngab7.shinyapps.io/monte_carlo_for_gmm_estimation/" target="_blank" class="btn-primary">Ouvrir l'application</a>
     </div>
 </div>
 
@@ -556,10 +588,18 @@
 <div class="card">
     <h2>Actu-Basics</h2>
     <div class="mini-card">
-        <p>Plateforme d'auto-apprentissage pour actuaires et data scientists débutants : concepts fondamentaux, modélisation, visualisation, pédagogie moderne.</p>
-        <a href="https://johngab7.github.io/Actu_Basics/" target="_blank" class="btn-primary">Découvrir Actu-Basics</a>
+        <p>Une plateforme d’apprentissage pour maîtriser les bases de l’actuariat, des statistiques et de la data science. Un enseignement visuel au service de la rigueur technique.</p>
+        <a href="https://johngab7.github.io/Actu_Basics/" target="_blank" class="btn-primary">Explorer Actu-Basics</a>
     </div>
-    <img src="../../_static/log.png" alt="Actu-Basics Logo" class="logosec">
+    <img src="../../../../_static/log.png" alt="Logo Actu-Basics" class="logosec">
+</div>
+
+    <div class="section">Vidéo d’introduction à Actu-Basics</div>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); max-width: 100%; margin-bottom: 3rem;">
+    <video controls style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+        <source src="../../_static/actubasics_intro.mp4" type="video/mp4">
+        Votre navigateur ne prend pas en charge la balise vidéo.
+    </video>
 </div></section>
 
 
@@ -578,7 +618,7 @@
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Curriculum Vitae</p>
+        <p class="prev-next-title">Mon CV</p>
       </div>
     </a>
     <a class="right-next"
@@ -636,6 +676,94 @@
       
     </div>
   
+  
+    <div class="footer-items__center">
+      
+        <div class="footer-item"><!-- Barre de logos : écoles -->
+  <div class="scrolling-track">
+    <div class="scrolling-content">
+      <img src="../../../../_static/ulb.png" alt="ULB">
+      <img src="../../../../_static/uds.png" alt="Dschang">
+      <img src="../../../../_static/issea.png" alt="ISSEA">
+    </div>
+  </div>
+
+<div class="toolbox-bar">
+  <div class="scroll-content">
+    <img src="../../../../_static/python.png" alt="Python">
+    <img src="../../../../_static/r.png" alt="R">
+    <img src="../../../../_static/sas.png" alt="SAS">
+    <img src="../../../../_static/latex.png" alt="LaTeX">
+    <img src="../../../../_static/tableau.png" alt="Git">
+    <img src="../../../../_static/excel.png" alt="Excel">
+    <img src="../../../../_static/sql.png" alt="SQL">
+    <img src="../../../../_static/python.png" alt="Python">
+    <img src="../../../../_static/r.png" alt="R">
+    <img src="../../../../_static/sas.png" alt="SAS">
+  </div>
+</div>
+
+
+
+<style>
+  .scrolling-logo-container {
+    background-color: #0F2B36;
+    padding: 1.5rem 0;
+    border-top: 3px solid #2DB6A0;
+    border-bottom: 3px solid #2DB6A0;
+    margin-top: 2rem;
+    overflow: hidden;
+  }
+
+  .logo-title {
+    color: #62F2C5;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .scrolling-track {
+    overflow: hidden;
+    position: relative;
+    height: 60px;
+  }
+
+  .scrolling-content {
+    display: flex;
+    gap: 150px;
+    animation: scroll-left 35s linear infinite;
+    align-items: center;
+  }
+
+  .scrolling-content img {
+    height: 40px;
+    opacity: 0.95;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .scrolling-content img:hover {
+    transform: scale(1.2);
+  }
+
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  @media (max-width: 600px) {
+    .scrolling-content img {
+      height: 30px;
+    }
+  }
+</style></div>
+      
+    </div>
   
   
     <div class="footer-items__end">

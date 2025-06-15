@@ -1,100 +1,110 @@
 .. _about-fr:
 
 À propos de moi
-=====================
+==================
 
 .. raw:: html
 
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+        body {
+            background-color: #0F2B36;
+            color: #DDFCF8;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
         .jumbotron {
-            background: linear-gradient(135deg, #2c3e50, #4ca1af);
-            color: white;
+            background: linear-gradient(135deg, #0F2B36, #2DB6A0);
+            color: #DDFCF8;
             text-align: center;
-            padding: 2rem 2rem;
+            padding: 2.5rem 2rem;
             border-radius: 20px;
-            margin-bottom: 2rem;
-            word-wrap: break-word;
-            overflow-wrap: break-word;
+            margin-bottom: 2.5rem;
+            box-shadow: 0 8px 18px rgba(0,0,0,0.3);
         }
-        .section {
-            font-weight: bold;
+
+        .section-title {
+            font-weight: 700;
             text-align: center;
-            margin: 2rem 0;
-            font-size: 2rem;
-            color: #333333;
+            margin: 2.5rem 0 1.5rem 0;
+            font-size: 1.9rem;
+            color: #62F2C5;
+            text-transform: uppercase;
         }
+
         .card {
             border-radius: 15px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            margin-bottom: 1rem;
-            padding: 15px;
-            background-color: #f9f9f9;
-            border-left: 5px solid #4ca1af;
+            background-color: #10333F;
+            padding: 25px;
+            margin-bottom: 2rem;
+            box-shadow: 0 5px 18px rgba(0,0,0,0.25);
+            border-left: 6px solid #2DB6A0;
+            color: #DDFCF8;
             transition: transform 0.3s, box-shadow 0.3s;
         }
+
         .card:hover {
-            transform: scale(1.03);
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            transform: scale(1.01);
+            box-shadow: 0 12px 28px rgba(0,0,0,0.35);
         }
-        .card h4 {
-            margin-top: 0;
-            color: #4ca1af;
+
+        .card p {
+            font-size: 1.15rem;
+            line-height: 1.7;
+            margin-bottom: 1rem;
         }
-        .mini-card {
-            background-color: #fff;
-            border-radius: 10px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            padding: 10px;
-            flex: 1 1 calc(50% - 10px);
-            box-sizing: border-box;
-            transition: transform 0.3s, box-shadow 0.3s;
-        }
-        .mini-card ul {
-            padding-left: 20px;
-        }
-        .mini-card ul li {
-            list-style-type: disc;
-            margin-bottom: 5px;
-        }
-        .achievements {
-            margin-top: 5px;
-            color: #333;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
+
+        .card strong {
+            color: #62F2C5;
         }
     </style>
 
 .. raw:: html
 
     <div class="jumbotron">
-        <h1 class="display-4">Je suis <strong>John GABARY</strong></h1>
+        <h1>Bonjour, je suis <strong>John GABARY</strong></h1>
+        <p style="font-size: 1.25rem; margin-top: 1rem;">
+            Actuaire junior · Data Scientist junior · Pédagogue · Fondateur de Actu-Basics
+        </p>
     </div>
 
-    <div class="section">Mon identité professionnelle</div>
+    <div class="section-title">Mon identité professionnelle</div>
     <div class="card">
-        <div class="card-body">
-            <p><strong>Actuaire</strong> diplômé, je suis animé par une passion profonde pour la <strong>modélisation prédictive</strong>, l’<strong>analyse statistique</strong> et la <strong>gestion des risques</strong>. Mon parcours allie rigueur mathématique, vision économique et orientation opérationnelle.</p>
-            <p>Je mets les données au service de décisions stratégiques et durables, en construisant des modèles <strong>robustes, explicables et utiles</strong>. Ma démarche vise à concilier exigence scientifique et compréhension métier.</p>
-        </div>
+        <p>
+            Je suis un actuaire diplômé, passionné par la <strong>modélisation statistique</strong>, la <strong>tarification en assurance Non-Vie</strong> et la <strong>data science appliquée à l’assurance</strong>.
+            Mon parcours académique allie rigueur mathématique, logique économique et pragmatisme actuariel.
+        </p>
+        <p>
+            Je conçois des modèles <strong>robustes</strong>, <strong>interprétables</strong> et <strong>pertinents</strong>, au service de l’analyse du risque et de la décision stratégique fondée sur les données.
+        </p>
     </div>
 
-    <div class="section">Ma vision et mes engagements</div>
+    <div class="section-title">Ambitions de recherche & apprentissage</div>
     <div class="card">
-        <div class="card-body">
-            <p>Convaincu que le savoir doit circuler, je développe et partage activement des ressources pédagogiques, notamment via mon projet <strong>Actu-Basics</strong>, qui allie modélisation actuarielle et <strong>innovation numérique</strong>.</p>
-            <p>Je conçois des outils interactifs et des contenus accessibles pour <strong>démocratiser l'actuariat et la science des données</strong>. Transmettre, c’est aussi apprendre : l’<strong>apprentissage continu</strong>, la <strong>créativité</strong> et l’<strong>impact sociétal</strong> guident ma trajectoire.</p>
-        </div>
+        <p>
+            Je me prépare à un doctorat en <strong>sciences actuarielles</strong> ou en <strong>modélisation prédictive du risque</strong>, avec l’objectif de combiner <strong>excellence académique</strong> et <strong>applications concrètes</strong>.
+        </p>
+        <p>
+            Mes intérêts de recherche incluent le <strong>machine learning interprétable</strong>, la <strong>modélisation des sinistres</strong>, et l’intégration d’algorithmes modernes dans le cadre actuariel.
+        </p>
     </div>
 
-.. raw:: html
-
-    <div class="section">Présentation d’Actu-Basics</div>
-     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 2rem auto; border-radius: 12px; box-shadow: 0 5px 20px rgba(0,0,0,0.1);">
-        <video controls style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
-            <source src="../../_static/actubasics_intro.mp4" type="video/mp4">
-            Votre navigateur ne supporte pas la lecture vidéo.
-        </video>
+    <div class="section-title">Enseignement & transmission</div>
+    <div class="card">
+        <p>
+            J’ai fondé <strong>Actu-Basics</strong> pour vulgariser visuellement les concepts complexes en <strong>actuariat</strong>, <strong>mathématiques</strong> et <strong>analyse de données</strong>.
+        </p>
+        <p>
+            À travers des outils interactifs, des vidéos pédagogiques et des supports visuels adaptés, je rends ces domaines plus accessibles — notamment pour les étudiants, les jeunes analystes et les passionnés de science appliquée.
+        </p>
     </div>
 
+    <div class="section-title">Mes engagements fondamentaux</div>
+    <div class="card">
+        <p>🧠 Apprentissage continu & curiosité intellectuelle</p>
+        <p>📊 Intégrité scientifique & modélisation éthique</p>
+        <p>🎓 Éducation & impact positif</p>
+        <p>🌍 Communication bilingue (FR / EN)</p>
+    </div>
 

@@ -48,7 +48,7 @@ html_logo = "_static/log.png"
 html_favicon = "_static/log.png"
 html_sourcelink_suffix = ""
 html_last_updated_fmt = ""
-#html_extra_path = ['_static']
+html_extra_path = ['_static']
 html_title = "JG"
 
 # PyData theme customization
@@ -87,8 +87,7 @@ html_theme_options = {
     },
     "use_edit_page_button": False,
     "show_toc_level": 10,
-    "navbar_align": "left",
-    "show_nav_level": 3,  # Niveau de navigation à afficher
+    "show_nav_level": 1,  # Niveau de navigation à afficher
     "show_toc_level": 10,  # Niveau de la table des matières à afficher
     "navigation_with_keys": True,  # Activation navigation avec touches clavier
     #"announcement": "Hello 👋!",
@@ -99,6 +98,7 @@ html_theme_options = {
         "**/*": ["edit-this-page"],
         #"no-sidebar": [],
     },
+    "footer_center": ["logo_footer.html"],
 }
 
 # Désactiver la barre latérale
@@ -113,7 +113,6 @@ html_context = {
     "github_version": "main",
     "doc_path": "docs",
 }
-
 rediraffe_redirects = {
     "contributing.rst": "community/index.rst",
 }
@@ -122,7 +121,7 @@ rediraffe_redirects = {
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ["_static"]
-#html_css_files = ["custom.css"]
+html_css_files = ["custom.css"]
 todo_include_todos = True
 
 # -- favicon options ---------------------------------------------------------

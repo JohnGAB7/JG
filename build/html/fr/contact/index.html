@@ -32,6 +32,7 @@
 
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=a746c00c" />
     <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css?v=4ae1632d" />
+    <link rel="stylesheet" type="text/css" href="../../_static/custom.css?v=a61453d5" />
   
   <!-- So that users can add custom icons -->
   <script src="../../_static/scripts/fontawesome.js?digest=26a4bc78f4c0ddb94549"></script>
@@ -51,7 +52,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="none"/>
   <meta name="docsearch:version" content="" />
-    <meta name="docbuild:last-update" content="Jun 02, 2025"/>
+    <meta name="docbuild:last-update" content="Jun 15, 2025"/>
   </head>
   
   
@@ -98,7 +99,7 @@
   </button>
   
   
-  <div class=" navbar-header-items__start">
+  <div class="col-lg-3 navbar-header-items__start">
     
       <div class="navbar-item">
 
@@ -127,7 +128,7 @@
     
   </div>
   
-  <div class=" navbar-header-items">
+  <div class="col-lg-9 navbar-header-items">
     
     <div class="me-auto navbar-header-items__center">
       
@@ -433,127 +434,128 @@
   <section id="contact">
 <span id="contact-fr"></span><h1>Contact<a class="headerlink" href="#contact" title="Link to this heading">#</a></h1>
 <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+    body {
+        background-color: #0F2B36;
+        color: #DDFCF8;
+        font-family: 'Segoe UI', sans-serif;
+    }
+
     .jumbotron {
-        background: linear-gradient(135deg, #2c3e50, #4ca1af);
-        color: white;
+        background: linear-gradient(135deg, #0F2B36, #2DB6A0);
+        color: #DDFCF8;
         text-align: center;
-        padding: 2rem;
-        border-radius: 15px;
-        margin-bottom: 2rem;
+        padding: 2.5rem 2rem;
+        border-radius: 20px;
+        margin-bottom: 2.5rem;
+        box-shadow: 0 6px 16px rgba(0,0,0,0.25);
     }
 
     .contact-form {
         max-width: 600px;
         margin: auto;
         padding: 2rem;
-        background-color: #ffffff;
-        border-radius: 10px;
-        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-        animation: fadeInUp 1s ease-in-out;
+        background-color: #10333F;
+        border-radius: 15px;
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+        color: #DDFCF8;
+        border-left: 6px solid #2DB6A0;
     }
 
     .contact-form label {
         display: block;
         margin: 1rem 0 0.3rem;
-        font-weight: 600;
-        color: #333;
+        font-weight: bold;
+        color: #62F2C5;
     }
 
     .contact-form input,
     .contact-form textarea {
         width: 100%;
         padding: 0.75rem;
-        border: 1px solid #ccc;
-        border-radius: 5px;
+        border: 1px solid #2DB6A0;
+        border-radius: 6px;
         font-size: 1rem;
-        resize: vertical;
+        background-color: #0F2B36;
+        color: #DDFCF8;
     }
 
     .contact-form input:focus,
     .contact-form textarea:focus {
         outline: none;
-        border-color: #4ca1af;
-        box-shadow: 0 0 5px rgba(76, 161, 175, 0.5);
+        border-color: #62F2C5;
+        box-shadow: 0 0 6px rgba(98, 242, 197, 0.5);
     }
 
     .contact-form button {
         margin-top: 1.5rem;
-        background-color: #4ca1af;
+        background-color: #2DB6A0;
         border: none;
-        color: white;
+        color: #0F2B36;
         padding: 0.75rem 1.5rem;
         font-size: 1rem;
-        border-radius: 5px;
+        font-weight: bold;
+        border-radius: 6px;
         cursor: pointer;
         transition: background-color 0.3s;
     }
 
     .contact-form button:hover {
-        background-color: #3b8a9e;
+        background-color: #62F2C5;
     }
 
     .form-feedback {
         margin-top: 1rem;
         display: none;
-        font-size: 0.95rem;
+        font-size: 1rem;
         text-align: center;
     }
 
     .form-feedback.success {
-        color: #28a745;
+        color: #62F2C5;
     }
 
     .form-feedback.error {
-        color: #dc3545;
+        color: #ff4d4f;
     }
 
     .footer-message {
         text-align: center;
         margin-top: 3rem;
-        font-size: 1.2rem;
-        color: #555;
+        font-size: 1.1rem;
+        color: #DDFCF8;
         padding-bottom: 80px;
-    }
-
-    @keyframes fadeInUp {
-        from {
-            opacity: 0;
-            transform: translateY(30px);
-        }
-        to {
-            opacity: 1;
-            transform: translateY(0);
-        }
     }
 </style>
 
 <div class="jumbotron">
-    <p>Pour toute question ou demande de collaboration, n'hésitez pas à me contacter via le formulaire ci-dessous :</p>
+    <p style="font-size: 1.25rem;">📬 Une question, une idée ou une proposition de collaboration ? N’hésitez pas à me contacter via ce formulaire :</p>
 </div>
 
-<form action="https://formspree.io/f/mldekjld" method="POST" class="contact-form" aria-label="Formulaire de contact">
+<form action="https://formspree.io/f/mldekjld" method="POST" class="contact-form" aria-label="Formulaire de Contact">
     <label for="firstname">Prénom</label>
-    <input type="text" id="firstname" name="firstname" placeholder="John" required>
+    <input type="text" id="firstname" name="firstname" placeholder="Jean" required>
 
     <label for="lastname">Nom</label>
-    <input type="text" id="lastname" name="lastname" placeholder="Doe" required>
+    <input type="text" id="lastname" name="lastname" placeholder="Dupont" required>
 
-    <label for="email">Adresse email</label>
-    <input type="email" id="email" name="email" placeholder="john.doe@example.com" required>
+    <label for="email">Adresse e-mail</label>
+    <input type="email" id="email" name="email" placeholder="jean.dupont@example.com" required>
 
     <label for="phone">Téléphone</label>
-    <input type="tel" id="phone" name="phone" placeholder="+33 6 12 34 56 78" required>
+    <input type="tel" id="phone" name="phone" placeholder="+32 465 000 000" required>
 
     <label for="message">Message</label>
     <textarea id="message" name="message" rows="5" placeholder="Votre message ici..." required></textarea>
 
     <button type="submit">Envoyer</button>
 
-    <div id="success-message" class="form-feedback success">Votre message a été envoyé avec succès !</div>
-    <div id="error-message" class="form-feedback error">Une erreur est survenue. Veuillez réessayer.</div>
+    <div id="success-message" class="form-feedback success">✅ Votre message a bien été envoyé !</div>
+    <div id="error-message" class="form-feedback error">❌ Une erreur est survenue. Veuillez réessayer.</div>
 
-    <small class="form-text text-muted" style="display:block; margin-top:1rem; text-align:center;">
-        Vos informations resteront strictement confidentielles.
+    <small style="display:block; margin-top:1rem; text-align:center; color:#DDFCF8;">
+        🔒 Vos informations resteront strictement confidentielles.
     </small>
 </form><script>
     document.addEventListener("DOMContentLoaded", function () {
@@ -586,11 +588,10 @@
             });
         });
     });
-</script><!-- Ajouter dans le fichier HTML (ou bloc raw dans Sphinx) -->
-<div class="likebtn-wrapper" data-theme="custom" data-ef="bounce" data-lang="fr" data-identifier="page_contact"></div>
+</script><div class="likebtn-wrapper" data-theme="custom" data-ef="bounce" data-lang="fr" data-identifier="page_contact_fr"></div>
 <script src="https://w.likebtn.com/js/w/widget.js" async></script>
 <div class="footer-message">
-    Merci de votre visite !
+    Merci pour votre visite ! N’hésitez pas à me contacter à tout moment.
 </div></section>
 
 
@@ -667,6 +668,94 @@
       
     </div>
   
+  
+    <div class="footer-items__center">
+      
+        <div class="footer-item"><!-- Barre de logos : écoles -->
+  <div class="scrolling-track">
+    <div class="scrolling-content">
+      <img src="../../../../_static/ulb.png" alt="ULB">
+      <img src="../../../../_static/uds.png" alt="Dschang">
+      <img src="../../../../_static/issea.png" alt="ISSEA">
+    </div>
+  </div>
+
+<div class="toolbox-bar">
+  <div class="scroll-content">
+    <img src="../../../../_static/python.png" alt="Python">
+    <img src="../../../../_static/r.png" alt="R">
+    <img src="../../../../_static/sas.png" alt="SAS">
+    <img src="../../../../_static/latex.png" alt="LaTeX">
+    <img src="../../../../_static/tableau.png" alt="Git">
+    <img src="../../../../_static/excel.png" alt="Excel">
+    <img src="../../../../_static/sql.png" alt="SQL">
+    <img src="../../../../_static/python.png" alt="Python">
+    <img src="../../../../_static/r.png" alt="R">
+    <img src="../../../../_static/sas.png" alt="SAS">
+  </div>
+</div>
+
+
+
+<style>
+  .scrolling-logo-container {
+    background-color: #0F2B36;
+    padding: 1.5rem 0;
+    border-top: 3px solid #2DB6A0;
+    border-bottom: 3px solid #2DB6A0;
+    margin-top: 2rem;
+    overflow: hidden;
+  }
+
+  .logo-title {
+    color: #62F2C5;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .scrolling-track {
+    overflow: hidden;
+    position: relative;
+    height: 60px;
+  }
+
+  .scrolling-content {
+    display: flex;
+    gap: 150px;
+    animation: scroll-left 35s linear infinite;
+    align-items: center;
+  }
+
+  .scrolling-content img {
+    height: 40px;
+    opacity: 0.95;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .scrolling-content img:hover {
+    transform: scale(1.2);
+  }
+
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  @media (max-width: 600px) {
+    .scrolling-content img {
+      height: 30px;
+    }
+  }
+</style></div>
+      
+    </div>
   
   
     <div class="footer-items__end">

@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Hello 👋! &#8212; JG</title>
+    <title>Welcome / Bienvenue 👋 &#8212; JG</title>
   
   
   
@@ -32,6 +32,7 @@
 
     <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=a746c00c" />
     <link rel="stylesheet" type="text/css" href="_static/graphviz.css?v=4ae1632d" />
+    <link rel="stylesheet" type="text/css" href="_static/custom.css?v=a61453d5" />
   
   <!-- So that users can add custom icons -->
   <script src="_static/scripts/fontawesome.js?digest=26a4bc78f4c0ddb94549"></script>
@@ -50,7 +51,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="none"/>
   <meta name="docsearch:version" content="" />
-    <meta name="docbuild:last-update" content="Jun 02, 2025"/>
+    <meta name="docbuild:last-update" content="Jun 15, 2025"/>
   </head>
   
   
@@ -97,7 +98,7 @@
   </button>
   
   
-  <div class=" navbar-header-items__start">
+  <div class="col-lg-3 navbar-header-items__start">
     
       <div class="navbar-item">
 
@@ -126,7 +127,7 @@
     
   </div>
   
-  <div class=" navbar-header-items">
+  <div class="col-lg-9 navbar-header-items">
     
     <div class="me-auto navbar-header-items__center">
       
@@ -404,44 +405,78 @@
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section id="hello">
-<span id="home"></span><h1>Hello  👋!<a class="headerlink" href="#hello" title="Link to this heading">#</a></h1>
+  <section id="welcome-bienvenue">
+<span id="home"></span><h1>Welcome / Bienvenue 👋<a class="headerlink" href="#welcome-bienvenue" title="Link to this heading">#</a></h1>
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-    body {
-        font-family: 'Roboto', sans-serif;
-        background-color: #f0f2f5;
-    }
-    .lang-switch {
-        text-align: center;
-        margin: 2rem 0;
-    }
-    .lang-switch select {
-        padding: 0.6rem 1rem;
-        font-size: 1rem;
-        border-radius: 5px;
-        border: 1px solid #ccc;
-        background-color: #4ca1af;
-        color: white;
-        font-weight: bold;
-        cursor: pointer;
-    }
-    .lang-switch option {
-        color: black;
-    }
-</style>
 
+body {
+        background-color: #0F2B36;
+        color: #DDFCF8;
+        font-family: 'Segoe UI', sans-serif;
+    }
 
+h1, h2 {
+    color: #62F2C5;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
 
-<div class="lang-switch">
-    <label for="lang-select" style="font-weight: bold; margin-right: 0.5rem;">🌍 Veuillez choisir votre langue / Please select your language :</label>
+.lang-switch {
+    text-align: center;
+    margin: 4rem 0 2rem;
+}
+
+.lang-switch label {
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #B5F3E9;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+
+.lang-switch select {
+    padding: 0.7rem 1.2rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    background-color: #62F2C5;
+    color: #DDFCF8;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.lang-switch select:hover {
+    background-color: #62F2C5;
+    color: #0F2B36;
+}
+
+.lang-switch option {
+    color: #0F2B36;
+    background-color: #62F2C5;
+}
+
+.hero-img {
+    display: block;
+    margin: 3rem auto 4rem;
+    max-width: 95%;
+    border-radius: 18px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+</style><div class="lang-switch">
+    <label for="lang-select">🌍 Please select your language / Veuillez choisir votre langue :</label><br>
     <select id="lang-select" onchange="window.location.href = this.value;">
-        <option disabled selected>-- Sélectionnez / Select --</option>
+        <option disabled selected>-- Select --</option>
         <option value="fr/index.html">🇫🇷 Français</option>
         <option value="en/index.html">🇬🇧 English</option>
     </select>
-</div><div style="text-align:center; margin-top:3rem;">
-    <img src="_static/language-hero.png" alt="Language selection hero" style="max-width: 100%; border-radius: 15px;">
+</div>
+
+<div class="hero-img">
+    <img src="_static/language-hero.png" alt="Welcome illustration" />
 </div><div class="toctree-wrapper compound">
 </div>
 </section>
@@ -511,6 +546,94 @@
       
     </div>
   
+  
+    <div class="footer-items__center">
+      
+        <div class="footer-item"><!-- Barre de logos : écoles -->
+  <div class="scrolling-track">
+    <div class="scrolling-content">
+      <img src="../../_static/ulb.png" alt="ULB">
+      <img src="../../_static/uds.png" alt="Dschang">
+      <img src="../../_static/issea.png" alt="ISSEA">
+    </div>
+  </div>
+
+<div class="toolbox-bar">
+  <div class="scroll-content">
+    <img src="../../_static/python.png" alt="Python">
+    <img src="../../_static/r.png" alt="R">
+    <img src="../../_static/sas.png" alt="SAS">
+    <img src="../../_static/latex.png" alt="LaTeX">
+    <img src="../../_static/tableau.png" alt="Git">
+    <img src="../../_static/excel.png" alt="Excel">
+    <img src="../../_static/sql.png" alt="SQL">
+    <img src="../../_static/python.png" alt="Python">
+    <img src="../../_static/r.png" alt="R">
+    <img src="../../_static/sas.png" alt="SAS">
+  </div>
+</div>
+
+
+
+<style>
+  .scrolling-logo-container {
+    background-color: #0F2B36;
+    padding: 1.5rem 0;
+    border-top: 3px solid #2DB6A0;
+    border-bottom: 3px solid #2DB6A0;
+    margin-top: 2rem;
+    overflow: hidden;
+  }
+
+  .logo-title {
+    color: #62F2C5;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .scrolling-track {
+    overflow: hidden;
+    position: relative;
+    height: 60px;
+  }
+
+  .scrolling-content {
+    display: flex;
+    gap: 150px;
+    animation: scroll-left 35s linear infinite;
+    align-items: center;
+  }
+
+  .scrolling-content img {
+    height: 40px;
+    opacity: 0.95;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .scrolling-content img:hover {
+    transform: scale(1.2);
+  }
+
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  @media (max-width: 600px) {
+    .scrolling-content img {
+      height: 30px;
+    }
+  }
+</style></div>
+      
+    </div>
   
   
     <div class="footer-items__end">

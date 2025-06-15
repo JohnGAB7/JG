@@ -1,0 +1,28 @@
+{% extends "!layout.html" %}
+
+{% block footer %}
+
+  <div class="logo-bar ecoles">
+    <div class="scroll-track">
+      <img src="{{ pathto('../../_static/ulb.png', 1) }}" alt="ULB">
+      <img src="{{ pathto('../../_static/uclouvain.png', 1) }}" alt="UCLouvain">
+      <img src="{{ pathto('../../_static/uds.png', 1) }}" alt="Dschang">
+      <img src="{{ pathto('../../_static/issea.png', 1) }}" alt="ISSEA">
+      <img src="{{ pathto('../../_static/enspy.png', 1) }}" alt="ENSPY">
+    </div>
+  </div>
+
+  <div class="logo-bar outils">
+    <div class="scroll-track">
+      <img src="{{ pathto('../../_static/python.png', 1) }}" alt="Python">
+      <img src="{{ pathto('../../_static/r.png', 1) }}" alt="R">
+      <img src="{{ pathto('../../_static/shiny.png', 1) }}" alt="Shiny">
+      <img src="{{ pathto('../../_static/latex.png', 1) }}" alt="LaTeX">
+      <img src="{{ pathto('../../_static/sql.png', 1) }}" alt="SQL">
+      <img src="{{ pathto('../../_static/git.png', 1) }}" alt="Git">
+      <img src="{{ pathto('../../_static/excel.png', 1) }}" alt="Excel">
+    </div>
+  </div>
+
+    {{ super() }} 
+{% endblock %}
