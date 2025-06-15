@@ -11,7 +11,7 @@ sys.path.insert(0, os.path.abspath('.'))
 # -- Project information -----------------------------------------------------
 project = "JG World"
 author = 'John GABARY'
-copyright = '2024, John GABARY'
+copyright = '2025'
 
 # -- General configuration ---------------------------------------------------
 extensions = [
