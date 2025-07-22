@@ -1,7 +1,8 @@
 .. _about-fr:
+.. _aboutfr-index:
 
-À propos de moi
-==================
+À propos
+========
 
 .. raw:: html
 
@@ -65,46 +66,45 @@
     <div class="jumbotron">
         <h1>Bonjour, je suis <strong>John GABARY</strong></h1>
         <p style="font-size: 1.25rem; margin-top: 1rem;">
-            Actuaire junior · Data Scientist junior · Pédagogue · Fondateur de Actu-Basics
+            Actuaire junior · Data Scientist débutant · Pédagogue · Fondateur d’Actu-Basics
         </p>
     </div>
 
-    <div class="section-title">Mon identité professionnelle</div>
+    <div class="section-title">Identité professionnelle</div>
     <div class="card">
         <p>
-            Je suis un actuaire diplômé, passionné par la <strong>modélisation statistique</strong>, la <strong>tarification en assurance Non-Vie</strong> et la <strong>data science appliquée à l’assurance</strong>.
-            Mon parcours académique allie rigueur mathématique, logique économique et pragmatisme actuariel.
+            Je suis un actuaire diplômé, passionné par la <strong>modélisation statistique</strong>, la <strong>tarification en assurance IARD</strong> et la <strong>science des données appliquée à l’assurance</strong>.
+            Mon parcours allie rigueur mathématique, logique économique et pragmatisme actuariel.
         </p>
         <p>
-            Je conçois des modèles <strong>robustes</strong>, <strong>interprétables</strong> et <strong>pertinents</strong>, au service de l’analyse du risque et de la décision stratégique fondée sur les données.
+            Je conçois des modèles à la fois <strong>robustes</strong>, <strong>interprétables</strong> et <strong>pertinents pour le métier</strong>, afin d’alimenter les analyses de risque et les décisions stratégiques.
         </p>
     </div>
 
-    <div class="section-title">Ambitions de recherche & apprentissage</div>
+    <div class="section-title">Recherche & ambitions académiques</div>
     <div class="card">
         <p>
-            Je me prépare à un doctorat en <strong>sciences actuarielles</strong> ou en <strong>modélisation prédictive du risque</strong>, avec l’objectif de combiner <strong>excellence académique</strong> et <strong>applications concrètes</strong>.
+            Je me prépare à un doctorat en <strong>sciences actuarielles ou modélisation prédictive des risques</strong>, avec la volonté de concilier <strong>excellence académique</strong> et <strong>application concrète</strong>.
         </p>
         <p>
-            Mes intérêts de recherche incluent le <strong>machine learning interprétable</strong>, la <strong>modélisation des sinistres</strong>, et l’intégration d’algorithmes modernes dans le cadre actuariel.
+            Mes intérêts de recherche portent sur le <strong>machine learning interprétable</strong>, la <strong>modélisation des sinistres</strong> et l’intégration des algorithmes modernes dans les pratiques actuarielles.
         </p>
     </div>
 
-    <div class="section-title">Enseignement & transmission</div>
+    <div class="section-title">Pédagogie & transmission</div>
     <div class="card">
         <p>
-            J’ai fondé <strong>Actu-Basics</strong> pour vulgariser visuellement les concepts complexes en <strong>actuariat</strong>, <strong>mathématiques</strong> et <strong>analyse de données</strong>.
+            J’ai fondé <strong>Actu-Basics</strong> pour vulgariser visuellement des notions complexes en <strong>sciences actuarielles</strong>, <strong>mathématiques</strong> et <strong>analyse de données</strong>.
         </p>
         <p>
-            À travers des outils interactifs, des vidéos pédagogiques et des supports visuels adaptés, je rends ces domaines plus accessibles — notamment pour les étudiants, les jeunes analystes et les passionnés de science appliquée.
+            À travers des outils interactifs, du contenu animé et des visuels didactiques, je souhaite rendre ces disciplines plus accessibles et attrayantes, notamment pour les étudiants, les jeunes analystes et les curieux.
         </p>
     </div>
 
     <div class="section-title">Mes engagements fondamentaux</div>
     <div class="card">
         <p>🧠 Apprentissage continu & curiosité intellectuelle</p>
-        <p>📊 Intégrité scientifique & modélisation éthique</p>
-        <p>🎓 Éducation & impact positif</p>
+        <p>📊 Intégrité scientifique & modélisation responsable</p>
+        <p>🎓 Transmission des savoirs & impact pédagogique</p>
         <p>🌍 Communication bilingue (FR / EN)</p>
     </div>
-

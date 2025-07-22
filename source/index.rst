@@ -81,6 +81,17 @@ Welcome / Bienvenue 👋
         <img src="_static/language-hero.png" alt="Welcome illustration" />
     </div>
 
+.. raw:: html
+
+    <div class="section">📄 Download My CV</div>
+    <div class="cv-download">
+        <select onchange="window.location.href = this.value;">
+            <option value="_static/cve.pdf">🇬🇧 English (PDF)</option>
+            <option value="_static/cvf.pdf">🇫🇷 Français (PDF)</option>
+        </select>
+    </div>
+
+
 .. toctree::
    :hidden:
    :maxdepth: 2

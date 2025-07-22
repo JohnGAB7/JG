@@ -11,7 +11,7 @@ Accueil
         body {
             background-color: #0F2B36;
             color: #DDFCF8;
-            font-family: 'Segoe UI', sans-serif;
+            font-family: 'Roboto', sans-serif;
         }
 
         h1, h2 {
@@ -23,7 +23,7 @@ Accueil
 
         .section {
             margin: 2.5rem auto;
-            max-width: 900px;
+            max-width: 920px;
             background-color: #10333F;
             padding: 2rem;
             border-radius: 15px;
@@ -32,26 +32,26 @@ Accueil
         }
 
         .section p {
-            font-size: 1.05rem;
-            line-height: 1.7;
+            font-size: 1.1rem;
+            line-height: 1.8;
         }
 
         .hero {
             text-align: center;
-            margin-top: 2rem;
+            margin-top: 2.5rem;
             margin-bottom: 3rem;
         }
 
         .hero h1 {
             font-size: 2.8rem;
-            margin-bottom: 1rem;
+            margin-bottom: 1.2rem;
             color: #DDFCF8;
         }
 
         .hero p {
-            font-size: 1.2rem;
+            font-size: 1.25rem;
             color: #DDFCF8;
-            max-width: 800px;
+            max-width: 850px;
             margin: 0.5rem auto;
         }
 
@@ -84,23 +84,23 @@ Accueil
 
     <div class="hero">
         <h1>Bienvenue 👋</h1>
-        <p>Je suis <strong>John Kevin Leffe Gabary</strong>, actuaire diplômé, passionné par les <strong>sciences actuarielles modernes</strong>, la <strong>data science</strong> et la <strong>pédagogie appliquée</strong>.</p>
-        <p>Mon objectif est de faire le lien entre <em>la rigueur théorique</em>, <em>la modélisation statistique</em> et <em>les applications concrètes</em>.</p>
+        <p>Je suis <strong>John Kevin Leffe Gabary</strong>, un actuaire passionné par la <strong>tarification Non-Vie</strong>, la <strong>data science</strong> et l’<strong>enseignement visuel</strong>.</p>
+        <p>Je combine <em>rigueur théorique</em> et <em>modélisation appliquée</em> pour soutenir les décisions basées sur les données, dans le secteur de l’assurance et au-delà.</p>
     </div>
 
 .. raw:: html
 
     <div class="section">
         <h2>🔍 Identité professionnelle</h2>
-        <p>Je combine excellence académique et expertise technique pour développer des modèles robustes, interprétables et utiles. Mon approche valorise à la fois la précision scientifique et la valeur opérationnelle au service de la décision, notamment dans le domaine de l’assurance.</p>
+        <p>Je m’appuie sur des bases solides en actuariat et en statistiques, avec des compétences en programmation (R, Python, SQL), pour créer des modèles à la fois <strong>robustes</strong> et <strong>compréhensibles</strong>. Mon objectif : accompagner les organisations dans leurs décisions tarifaires et de gestion des risques.</p>
     </div>
 
 .. raw:: html
 
     <div class="section">
         <h2>🎯 Mission & Impact</h2>
-        <p>À travers mon projet <strong>Actu-Basics</strong> et d'autres initiatives éducatives, je conçois des ressources interactives simplifiées pour démocratiser les outils actuariels et statistiques.</p>
-        <p>En combinant animation, applications web et bonnes pratiques de codage, je propose des contenus <strong>visuels, pédagogiques et percutants</strong>.</p>
+        <p>À travers mon projet <strong>Actu-Basics</strong> et d’autres initiatives, je conçois des <em>outils pédagogiques</em> qui facilitent la compréhension de l’actuariat et de la data science.</p>
+        <p>Des applications web interactives aux vidéos animées, je mise sur la <strong>clarté</strong>, la <strong>pédagogie</strong> et l’<strong>innovation</strong> dans la transmission des savoirs.</p>
     </div>
 
 .. raw:: html

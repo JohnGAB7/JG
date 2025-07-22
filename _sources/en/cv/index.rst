@@ -171,3 +171,13 @@ My Resume
         <div class="skill">Visual Thinking</div>
         <div class="skill">Project Management</div>
     </div>
+    
+.. raw:: html
+
+    <div class="section">📄 Download My CV</div>
+    <div class="cv-download">
+        <select onchange="window.location.href = this.value;">
+            <option disabled selected>-- Select --</option>
+            <option value="../../_static/cve.pdf">🇬🇧 English (PDF)</option>
+        </select>
+    </div>

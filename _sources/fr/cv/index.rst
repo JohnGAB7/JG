@@ -169,3 +169,13 @@ Mon CV
         <div class="skill">Pensée visuelle</div>
         <div class="skill">Gestion de projet</div>
     </div>
+
+.. raw:: html
+
+    <div class="section">📄 Téléchargez mon CV</div>
+    <div class="cv-download">
+        <select onchange="window.location.href = this.value;">
+            <option disabled selected>-- Sélectionnez --</option>
+            <option value="../../_static/cvf.pdf">🇫🇷 Français (PDF)</option>
+        </select>
+    </div>

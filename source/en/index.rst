@@ -11,7 +11,7 @@ Home
         body {
             background-color: #0F2B36;
             color: #DDFCF8;
-            font-family: 'Segoe UI', sans-serif;
+            font-family: 'Roboto', sans-serif;
         }
 
         h1, h2 {
@@ -23,7 +23,7 @@ Home
 
         .section {
             margin: 2.5rem auto;
-            max-width: 900px;
+            max-width: 920px;
             background-color: #10333F;
             padding: 2rem;
             border-radius: 15px;
@@ -32,26 +32,26 @@ Home
         }
 
         .section p {
-            font-size: 1.05rem;
-            line-height: 1.7;
+            font-size: 1.1rem;
+            line-height: 1.8;
         }
 
         .hero {
             text-align: center;
-            margin-top: 2rem;
+            margin-top: 2.5rem;
             margin-bottom: 3rem;
         }
 
         .hero h1 {
             font-size: 2.8rem;
-            margin-bottom: 1rem;
+            margin-bottom: 1.2rem;
             color: #DDFCF8;
         }
 
         .hero p {
-            font-size: 1.2rem;
+            font-size: 1.25rem;
             color: #DDFCF8;
-            max-width: 800px;
+            max-width: 850px;
             margin: 0.5rem auto;
         }
 
@@ -84,23 +84,23 @@ Home
 
     <div class="hero">
         <h1>Welcome 👋</h1>
-        <p>I'm <strong>John Kevin Leffe Gabary</strong>, a certified actuary passionate about <strong>modern actuarial science</strong>, <strong>data science</strong>, and <strong>educational impact</strong>.</p>
-        <p>My goal is to bridge the gap between <em>theoretical rigor</em>, <em>statistical modeling</em>, and <em>real-world applications</em>.</p>
+        <p>I'm <strong>John Kevin Leffe Gabary</strong>, an actuary passionate about <strong>non-life pricing</strong>, <strong>data science</strong>, and <strong>visual education</strong>.</p>
+        <p>I bridge <em>theoretical rigor</em> with <em>practical modeling</em> to support data-driven decisions in insurance and beyond.</p>
     </div>
 
 .. raw:: html
 
     <div class="section">
         <h2>🔍 Professional Identity</h2>
-        <p>I combine academic excellence and technical expertise to develop models that are robust, explainable, and useful. My work blends scientific precision and operational value to support risk-based decisions in insurance and beyond.</p>
+        <p>I blend strong actuarial foundations and statistical expertise with coding skills in R, Python, and SQL. My goal is to create models that are both <strong>robust</strong> and <strong>understandable</strong> — helping organizations make smarter pricing and risk decisions.</p>
     </div>
 
 .. raw:: html
 
     <div class="section">
         <h2>🎯 Mission & Impact</h2>
-        <p>Through my project <strong>Actu-Basics</strong> and other educational initiatives, I create simplified, interactive resources to make actuarial science and data tools more accessible.</p>
-        <p>Combining animation, web applications, and coding best practices, I aim to deliver content that is <strong>pedagogical, visual, and impactful</strong>.</p>
+        <p>Through my project <strong>Actu-Basics</strong> and personal initiatives, I create <em>educational tools</em> that make actuarial and data concepts easier to grasp.</p>
+        <p>From interactive web apps to animated explainers, I focus on <strong>clarity</strong>, <strong>pedagogy</strong>, and <strong>innovation</strong> in communication.</p>
     </div>
 
 .. raw:: html
